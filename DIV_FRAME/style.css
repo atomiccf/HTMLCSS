@@ -1,0 +1,42 @@
+#content{
+    font-size: 40px;
+    padding:50px;
+}
+
+#left_side{
+    background: url("img/l.png") repeat-y left;
+
+}
+
+#right_side {
+    background: url("img/r.png") repeat-y right;
+
+}
+
+#top{
+    background: url("img/t.png") repeat-x top;
+}
+
+#bottom{
+    background: url("img/b.png") repeat-x bottom;
+}
+
+#left_topAngle{
+    background: url("img/l-t.png") no-repeat top left;
+}
+
+#left_bottomAngle{
+    background: url("img/l-b.png") no-repeat bottom left;
+
+}
+
+#right_topAngle{
+    background: url("img/r-t.png") no-repeat top right;
+
+}
+
+#right_bottomAngle{
+    background: url("img/r-b.png") no-repeat bottom right;
+
+}
+
