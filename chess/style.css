@@ -32,10 +32,7 @@ p:nth-last-child(9)+p {
     color: blue;
     font-style: italic;
 }
-p:nth-last-child(9)+p+p {
-    color: blue;
-    font-style: italic;
-}
+
 .bald {
 
     font-weight: bold;
