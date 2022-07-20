@@ -7,7 +7,7 @@ a + p {
     color: green;
 }
 
-p[title="date"] {
+.bald +p+p {
     color: red;
     font-weight: bold;
 }
@@ -17,21 +17,21 @@ p:nth-child(6) {
     font-style: italic;
 }
 
-p:nth-child(7) {
+p:nth-child(6)+p {
     color: blue;
     font-style: italic;
 }
 
-p:nth-last-child(8) {
-    color: blue;
-    font-style: italic;
-}
 
 p:nth-last-child(9) {
     color: blue;
     font-style: italic;
 }
 
+p:nth-last-child(9)+p {
+    color: blue;
+    font-style: italic;
+}
 .bald {
 
     font-weight: bold;
