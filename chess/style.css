@@ -1,0 +1,42 @@
+a + p {
+    color: blue;
+    font-style: italic;
+}
+
+.bald +p {
+    color: green;
+}
+
+p[title="date"] {
+    color: red;
+    font-weight: bold;
+}
+
+p:nth-child(6) {
+    color: blue;
+    font-style: italic;
+}
+
+p:nth-child(7) {
+    color: blue;
+    font-style: italic;
+}
+
+p:nth-last-child(8) {
+    color: blue;
+    font-style: italic;
+}
+
+p:nth-last-child(9) {
+    color: blue;
+    font-style: italic;
+}
+
+.bald {
+
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+
