@@ -1,13 +1,16 @@
 body{
-    background-color: bisque;
+
 }
+
 h1{
     font-family: 'Edu TAS Beginner', cursive;
     text-decoration: underline;
     text-transform: uppercase;
-
-
+    background: linear-gradient(to right, red, yellow);
+    -webkit-background-clip: text;
+    color: rgba(0,0,0,0);
 }
+
 .background_master_1 {
     width: 57px;
     height: 151px;
@@ -16,7 +19,7 @@ h1{
     }
 
 .background_master_2 {
-    width: 57px;
+    width: 56px;
     height: 151px;
     float: left;
     margin-left: 171px;
