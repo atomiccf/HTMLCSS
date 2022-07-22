@@ -1,14 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b06516d-9e8f-401f-875f-bcaecdf5c3e4" name="Changes" comment="minor changes &#10;add linear gradient color">
-      <change afterPath="$PROJECT_DIR$/.idea/HTMLCSS.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_CSS4/chess/.idea/chess.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_CSS4/chess/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/HTML_CSS4/chess/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="2b06516d-9e8f-401f-875f-bcaecdf5c3e4" name="Changes" comment="minor changes">
+      <change beforePath="$PROJECT_DIR$/add/HTML_CSS4/tagAREA/main_area.html" beforeDir="false" afterPath="$PROJECT_DIR$/add/HTML_CSS4/tagAREA/main_area.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,18 +32,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Git_projects/HTMLCSS",
-    "list.type.of.created.stylesheet": "CSS",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Git_projects/HTMLCSS&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Git_projects\HTMLCSS\general_images" />
@@ -84,20 +78,7 @@
       <workItem from="1658419190153" duration="809000" />
       <workItem from="1658472716066" duration="8749000" />
       <workItem from="1658491952982" duration="3250000" />
-    </task>
-    <task id="LOCAL-00015" summary="changes childbook">
-      <created>1657207573366</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1657207573366</updated>
-    </task>
-    <task id="LOCAL-00016" summary="changes childbook">
-      <created>1657211287549</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1657211287549</updated>
+      <workItem from="1658506914146" duration="335000" />
     </task>
     <task id="LOCAL-00017" summary="changes childbook">
       <created>1657211305465</created>
@@ -428,7 +409,21 @@
       <option name="project" value="LOCAL" />
       <updated>1658506695844</updated>
     </task>
-    <option name="localTasksCounter" value="64" />
+    <task id="LOCAL-00064" summary="minor changes">
+      <created>1658506993408</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1658506993409</updated>
+    </task>
+    <task id="LOCAL-00065" summary="minor changes">
+      <created>1658507023727</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1658507023727</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -461,6 +456,7 @@
     <MESSAGE value="add changes&#10;rename folder cards to sprites&#10;rename html file cards to sprites&#10;add new image files" />
     <MESSAGE value="change link and title" />
     <MESSAGE value="minor changes &#10;add linear gradient color" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor changes &#10;add linear gradient color" />
+    <MESSAGE value="minor changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
   </component>
 </project>
