@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b06516d-9e8f-401f-875f-bcaecdf5c3e4" name="Changes" comment="minor changes">
+    <list default="true" id="2b06516d-9e8f-401f-875f-bcaecdf5c3e4" name="Changes" comment="minor style changes&#10;add borders on main page">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add/HTML_CSS4/border_image/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/add/HTML_CSS4/border_image/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/general_images/cheked.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/general_images/ramka.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/styles/main_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main_style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -85,14 +85,7 @@
       <workItem from="1658516451184" duration="266000" />
       <workItem from="1658527018200" duration="589000" />
       <workItem from="1658569268153" duration="55000" />
-      <workItem from="1658585496961" duration="2381000" />
-    </task>
-    <task id="LOCAL-00018" summary="add">
-      <created>1657218606169</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1657218606169</updated>
+      <workItem from="1658585496961" duration="4466000" />
     </task>
     <task id="LOCAL-00019" summary="add">
       <created>1657301228198</created>
@@ -430,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658507332420</updated>
     </task>
-    <option name="localTasksCounter" value="67" />
+    <task id="LOCAL-00067" summary="minor style changes&#10;add borders on main page">
+      <created>1658588676353</created>
+      <option name="number" value="00067" />
+      <option name="presentableId" value="LOCAL-00067" />
+      <option name="project" value="LOCAL" />
+      <updated>1658588676354</updated>
+    </task>
+    <option name="localTasksCounter" value="68" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -464,6 +464,7 @@
     <MESSAGE value="change link and title" />
     <MESSAGE value="minor changes &#10;add linear gradient color" />
     <MESSAGE value="minor changes" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor changes" />
+    <MESSAGE value="minor style changes&#10;add borders on main page" />
+    <option name="LAST_COMMIT_MESSAGE" value="minor style changes&#10;add borders on main page" />
   </component>
 </project>
