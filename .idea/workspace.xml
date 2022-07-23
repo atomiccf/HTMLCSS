@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b06516d-9e8f-401f-875f-bcaecdf5c3e4" name="Changes" comment="minor changes">
-      <change beforePath="$PROJECT_DIR$/add/HTML_CSS4/tagAREA/main_area.html" beforeDir="false" afterPath="$PROJECT_DIR$/add/HTML_CSS4/tagAREA/main_area.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/add/HTML_CSS4/border_image/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/add/HTML_CSS4/border_image/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles/main_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main_style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,18 +35,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Git_projects/HTMLCSS&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Git_projects/HTMLCSS",
+    "list.type.of.created.stylesheet": "CSS",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Git_projects\HTMLCSS\general_images" />
@@ -78,14 +81,11 @@
       <workItem from="1658419190153" duration="809000" />
       <workItem from="1658472716066" duration="8749000" />
       <workItem from="1658491952982" duration="3250000" />
-      <workItem from="1658506914146" duration="335000" />
-    </task>
-    <task id="LOCAL-00017" summary="changes childbook">
-      <created>1657211305465</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1657211305465</updated>
+      <workItem from="1658506914146" duration="455000" />
+      <workItem from="1658516451184" duration="266000" />
+      <workItem from="1658527018200" duration="589000" />
+      <workItem from="1658569268153" duration="55000" />
+      <workItem from="1658585496961" duration="2381000" />
     </task>
     <task id="LOCAL-00018" summary="add">
       <created>1657218606169</created>
@@ -423,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658507023727</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="minor changes">
+      <created>1658507332415</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1658507332420</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

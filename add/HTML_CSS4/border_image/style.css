@@ -2,8 +2,8 @@
 
 {
 
-    border: 500px;
-    border: 100px solid red;
+
+    border: 500px solid red;
     border-image: url(image128-21.jpg) 500;
     border-image-slice: 500;
     border-image-repeat: stretch;

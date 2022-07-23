@@ -1,8 +1,21 @@
+body{
+    background-color: antiquewhite;
+}
 h1{
     text-align: center;
     font-family: 'Corporate A Pro';
 }
 
+.border1{
+
+    border: 80px solid red;
+    border-image: url(../general_images/image128-21.png);
+    border-image-slice: 500;
+    border-image-repeat: stretch;
+    padding: 5px;
+    font-size: 1.5em;
+    background-color: antiquewhite;
+}
 h2{
     font-family: 'Corporate A Pro';
     text-align: center;
