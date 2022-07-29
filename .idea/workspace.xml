@@ -2,10 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b06516d-9e8f-401f-875f-bcaecdf5c3e4" name="Changes" comment="minor style changes&#10;add borders on main page">
+      <change afterPath="$PROJECT_DIR$/HTML_CSS5/MAKET_DIV/ball.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS5/MAKET_DIV/cup.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS5/MAKET_DIV/line_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS5/MAKET_DIV/maketDiv.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS5/MAKET_DIV/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS5/MAKET_TABLE/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HTML_CSS5/MAKET_TABLE/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add/HTML_CSS5/BALL12/ball12.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add/HTML_CSS5/BALL12/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/general_images/cheked.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/general_images/ramka.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles/main_style.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles/main_style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,14 +47,18 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/Git_projects/HTMLCSS",
+    "last_opened_file_path": "D:/Git_projects/JS",
     "list.type.of.created.stylesheet": "CSS",
     "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Git_projects\HTMLCSS\HTML_CSS5\MAKET_DIV" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Git_projects\HTMLCSS\HTML_CSS5\MAKET_TABLE" />
       <recent name="D:\Git_projects\HTMLCSS\general_images" />
       <recent name="D:\Git_projects\HTMLCSS\add\WebP" />
       <recent name="D:\Git_projects\HTMLCSS" />
@@ -85,14 +95,11 @@
       <workItem from="1658516451184" duration="266000" />
       <workItem from="1658527018200" duration="589000" />
       <workItem from="1658569268153" duration="55000" />
-      <workItem from="1658585496961" duration="4466000" />
-    </task>
-    <task id="LOCAL-00019" summary="add">
-      <created>1657301228198</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1657301228198</updated>
+      <workItem from="1658585496961" duration="4959000" />
+      <workItem from="1658676235041" duration="11104000" />
+      <workItem from="1658750939813" duration="26479000" />
+      <workItem from="1658993624298" duration="1376000" />
+      <workItem from="1659005204929" duration="4030000" />
     </task>
     <task id="LOCAL-00020" summary="add">
       <created>1657301240228</created>
@@ -430,11 +437,28 @@
       <option name="project" value="LOCAL" />
       <updated>1658588676354</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="minor style changes&#10;add borders on main page">
+      <created>1658590737530</created>
+      <option name="number" value="00068" />
+      <option name="presentableId" value="LOCAL-00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1658590737530</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

@@ -1,0 +1,36 @@
+table {
+    border-collapse: collapse;
+
+}
+
+th {
+    background-color: #add8e6;
+    color: #0a0dfd;
+    text-transform: uppercase;
+    height: 50px;
+    font-family: Arial;
+}
+
+.cell_background {
+    background: url("ball.png") repeat-y right;
+   vertical-align: top;
+}
+
+.cell_menu {
+    vertical-align: top;
+    background-color: #f0e68c;
+    width: 100px;
+
+
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+img {
+    float: left;
+
+}

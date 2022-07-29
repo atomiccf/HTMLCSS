@@ -1,0 +1,48 @@
+
+.header {
+    background-color: #add8e6;
+    color: #0a0dfd;
+    text-align: center;
+    text-transform: uppercase;
+    height: 50px;
+    padding: 1px;
+    font-family: Arial;
+}
+
+.menu {
+    float: left;
+    width: 170px;
+
+
+}
+
+.content {
+    margin-left: 200px;
+    background: url("ball.png") repeat-y right top;
+    overflow: hidden;
+}
+
+.footer {
+    background-color: #add8e6;
+    color: #0a0dfd;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1px;
+    height: 50px;
+    margin: 0px;
+    font-family: Arial;
+    clear: both;
+}
+
+.container {
+    background: url(line_1.png) repeat-y left top;
+}
+
+
+img {
+    float: left;
+}
+
+h2 {
+    text-align: center;
+}
