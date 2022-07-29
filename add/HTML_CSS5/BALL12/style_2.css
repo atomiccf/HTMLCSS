@@ -1,0 +1,53 @@
+*{
+    /*margin: 0
+;
+    padding: 0*/
+;
+    box-sizing: border-box
+;
+}
+
+
+.wrap {
+    background: url("line1.png") ;
+}
+
+.wrap_2 {
+
+    margin-left: -20%;
+    background: url("line.png") repeat-y top right;
+}
+
+
+.left {
+    background: url("ball3.png") no-repeat top left,
+    url("ball3.png") no-repeat top right,
+    url("ball3.png") no-repeat bottom right,
+    url("ball3.png") no-repeat bottom left;
+    width: 20%;
+    height: 100vh;
+    float: left;
+
+}
+
+.right {
+    background: url("ball3.png") no-repeat top left,
+    url("ball3.png") no-repeat bottom right,
+    url("ball3.png") no-repeat bottom left,
+    url("ball3.png") no-repeat top right;
+    width: 200px;
+    height: 100vh;
+       float: right;
+}
+
+.content {
+    background: url("ball3.png") no-repeat top left,
+    url("ball3.png") no-repeat top right,
+    url("ball3.png") no-repeat bottom right,
+    url("ball3.png") no-repeat bottom left, #c07475;
+    overflow: hidden;
+    height: 100vh;
+    margin-left: 20%;
+    margin-right: 200px;
+
+}
