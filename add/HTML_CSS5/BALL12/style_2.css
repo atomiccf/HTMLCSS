@@ -9,6 +9,7 @@
     url("ball3.png") no-repeat bottom left,
     url("line1.png");
     width: 20%;
+    overflow: hidden;
     height: 50vh;
     float: left;
 
