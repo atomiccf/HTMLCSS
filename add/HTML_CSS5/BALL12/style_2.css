@@ -9,7 +9,7 @@
     url("ball3.png") no-repeat bottom left,
     url("line1.png");
     width: 20%;
-    height: 100vh;
+    height: 50vh;
     float: left;
 
 }
@@ -21,7 +21,7 @@
     url("ball3.png") no-repeat top right,
     url("line.png");
     width: 200px;
-    height: 100vh;
+    height: 50vh;
        float: right;
 }
 
@@ -31,7 +31,7 @@
     url("ball3.png") no-repeat bottom right,
     url("ball3.png") no-repeat bottom left, #c07475;
     overflow: hidden;
-    height: 100vh;
+    height: 50vh;
     margin-left: 20%;
     margin-right: 200px;
 
