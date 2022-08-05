@@ -79,7 +79,7 @@ a:hover {
 .menu_flex ul li{
     flex-flow: row nowrap;
 }
-.menu_flex ul li :after{
-    content: url("img/red_line.png");
+.menu_flex ul li a:after{
+    content: url("img/line2.png");
 
 }
