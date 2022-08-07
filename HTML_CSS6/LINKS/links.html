@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LINKS</title>
+    <style>
+        @import url(style.css);
+    </style>
+</head>
+<body>
+<h1> Links </h1>
+<br>
+<h3>Горизонтальное меню при помощи свойств display:table и display:table-cell</h3>
+  <!--   Стилевое свойство display:table отображает элемент как таблицу, но в той же строке.
+    По умолчанию таблица занимает столько места, сколько в ней существует контента (содержимого).Поэтому для ul
+    необходимо задать width: 100%, чтобы меню растянулось на всю ширину страницы (или родительского блока).
+    Табличная верстка в настоящий момент не применяется.
+    Разделение реализовано при помощи свойства border-right.-->
+<br>
+<div class="menu_table">
+    <ul>
+        <li><a href="">Первая ссылка</a></li>
+        <li><a href="">Вторая ссылка</a></li>
+        <li><a href="">Третья ссылка</a></li>
+        <li><a href="">Четвертая ссылка</a></li>
+    </ul>
+</div>
+<br>
+<hr>
+
+<h3>Горизонтальное меню при помощи свойств display:inline и display:inline-block</h3>
+<br>
+
+<!-- Свойство display:inline отображает элемент как строчный. Минусом данного подхода является невозможность
+ задать высоту и ширину блока.
+ Свойство display:inline-block отображает элемент как блочный. Элементы выстраиваются в одну строку.
+ Плюсом данного подхода в отличии display:inline является возможность задавать ширину и длину.
+ Кроме этого элемент имеет такую ширину, чтобы вместить все его содержимое. Разделение реализовано через фоновое
+ изображение.-->
+
+<div class="menu_inline">
+ <ul>
+     <li><a href="https://habr.com/ru/company/ruvds/blog/509194/">Первая ссылка</a></li>
+     <li><a href="https://habr.com/ru/company/ruvds/blog/509194/">Вторая ссылка</a></li>
+     <li><a href="https://habr.com/ru/company/ruvds/blog/509194/">Третья ссылка</a></li>
+     <li><a href="https://habr.com/ru/company/ruvds/blog/509194/">Четвертая ссылка</a></li>
+ </ul>
+</div>
+<br>
+
+<div class="menu_inline_block">
+ <ul>
+     <li><a href="https://habr.com/ru/company/ruvds/blog/509194/"> Первая ссылка</a></li>
+     <li><a href="https://habr.com/ru/company/ruvds/blog/509194/"> Вторая ссылка</a></li>
+     <li><a href="https://habr.com/ru/company/ruvds/blog/509194/"> Третья ссылка</a></li>
+     <li><a href="https://habr.com/ru/company/ruvds/blog/509194/"> Четвертая ссылка</a></li>
+ </ul>
+</div>
+<br>
+<hr>
+
+
+<h3>Горизонтальное меню при помощи свойства float display:block</h3>
+<br>
+
+<!--После использования на элементе li свойство float:left, можно столкнуться с тем, что высота элемента ul станет равна
+0, поэтому если задан фоновый цвет, то он не будет отображен.
+Для того, чтобы фон был отображён на элемент ul нужно применить свойство overflow: hidden или установить распорку.
+Кроме этого в связи с тем что элемен li имеет строчное свойство, на данный элемент лучше применить свойство
+display:inline-block или display:block Разделение реализовано путем использования тега img.-->
+
+<div class="menu_float">
+<ul>
+    <li><a href="https://habr.com/ru/company/ruvds/blog/509194/">Первая ссылка <img src="img/line2.png" alt="red_line"></a></li>
+    <li><a href="https://habr.com/ru/company/ruvds/blog/509194/">Вторая ссылка <img src="img/line2.png" alt="red_line"></a></li>
+    <li><a href="https://habr.com/ru/company/ruvds/blog/509194/">Третья ссылка <img src="img/line2.png" alt="red_line"></a></li>
+    <li><a href="https://habr.com/ru/company/ruvds/blog/509194/">Четвертая ссылка <img src="img/line2.png" alt="red_line"></a></li>
+</ul>
+</div>
+<br>
+<br>
+<hr>
+<h3>Горизонтальное меню при помощи свойства display:flex</h3>
+<br>
+
+<!--Модуль Flexible Box Layout, который введен в CSS3. Данный модуль определяет особый режим компоновки/верстки
+пользовательского интерфейса.
+Благодаря Flexbox можно проще переопределять направление и выравнивание элементов. Единственная проблема, которая
+может возникнуть при его применении, - это кроссбраузерность.
+В Internet Explorer частичная поддержка Flexbox последней версии - IE11. Также не поддерживается старыми версиями
+Opera. Разделение реализовано путем использования тега img.-->
+
+<div class="menu_flex">
+<ul>
+    <li><a href="https://developer.mozilla.org/ru/docs/Learn/CSS/CSS_layout/Flexbox" target="_blank">Первая ссылка </a></li>
+    <li><a href="https://habr.com/ru/company/ruvds/blog/509194/" target="_blank">Вторая ссылка</a> </li>
+    <li><a href="https://habr.com/ru/company/ruvds/blog/509194/" target="_blank">Третья ссылка</a></li>
+    <li><a href="https://fanadviser.ru/#rec161635830" target="_blank">Четвертая ссылка </a></li>
+</ul>
+</div>
+</body>
+</html>

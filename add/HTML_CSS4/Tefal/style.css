@@ -1,0 +1,21 @@
+.layer-0-holder {
+    left: 50%;
+    padding: 78px 67px 384px;
+    position: absolute;
+    top: 0;
+    width: 496px;
+    background: url(img/layer_0.png) no-repeat;
+    margin-left: -248px;
+}
+
+.layer-4 {
+    display: block;
+    margin: 71px auto;
+    position: absolute;
+    right: 648px;
+}
+.layer-0-holder:hover{
+
+    background: url(img/layer_3.png) no-repeat;
+    margin-top: 50px;
+}

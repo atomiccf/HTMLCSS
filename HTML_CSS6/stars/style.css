@@ -1,0 +1,20 @@
+.container {
+    display: inline-block;
+    direction: rtl;
+}
+
+.container span {
+    display: inline-block;
+    content: url("img/star0.png");
+}
+
+
+.container span:hover {
+    content: url("img/star1.png");
+
+}
+
+
+.container span:hover ~ span {
+    content: url("img/star1.png");
+}

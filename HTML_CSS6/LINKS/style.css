@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    counter-reset: method;
+}
+h3:before{
+    counter-increment: method;
+    content: 'Способ ' counter(method) '. ';
+
+}
+h3{
+    font-size: 1rem;
+}
+
+
+p{
+    font-size: 1rem;
+}
+a {
+    color: #008000;
+}
+
+a:hover {
+    color: red;
+
+}
+
+.menu_table ul {
+    display: table;
+}
+.menu_table ul li{
+    display: table-cell;
+    border-right: solid red 3px;
+}
+.menu_table ul li a{
+    margin: 8px;
+}
+
+
+
+
+.menu_float ul {
+    list-style: none;
+}
+
+.menu_float li {
+    display: block;
+    float: left;
+    margin-right: 5px;
+
+}
+
+.menu_inline li {
+    display: inline;
+    background: url("img/line2.png")no-repeat right;
+}
+
+.menu_inline li a{
+    margin-right: 13px;
+}
+
+.menu_inline_block li {
+    display: inline-block;
+
+  background: url("img/line2.png")no-repeat right;
+}
+.menu_inline_block li a{
+    margin-right: 13px;
+}
+
+.menu_flex ul{
+    display: flex;
+    list-style: none;
+}
+.menu_flex ul li{
+    flex-flow: row nowrap;
+}
+.menu_flex ul li a:after{
+    content: url("img/line2.png");
+
+}

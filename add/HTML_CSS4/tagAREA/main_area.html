@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tag_mainAREA</title>
+    <style>
+        @import url(style.css);
+    </style>
+</head>
+<body>
+<h1>Тег area и его свойства</h1>
+<p>
+    Каждый элемент &#60;area&#62; определяет активные области изображения, которые являются ссылками. Рисунок с
+    привязанными к нему активными
+    областями называется в совокупности картой-изображением. Такая карта по внешнему виду ничем не отличается от
+    обычного изображения, но при этом оно может быть разбито на невидимые зоны разной формы, где каждая из областей
+    служит ссылкой.
+</p>
+<p>Тег &#60;area&#62;задает форму области, ее размеры, устанавливает адрес документа, на который следует сделать ссылку,
+    а также имя окна
+    или фрейма, куда браузер будет загружать документ. Этот тег всегда располагается в контейнере &#60;map&#62;, который
+    связывает координаты областей с изображением.
+</p>
+<p>Раccмотрим указанные свойства на рисунке ниже. Названия областных городов кликабельны, по клику на название города
+    можно получить дополнительную информацию о нем из Википедии.</p>
+<p>Приграничные области также кликабельны, по клику на них можно получить информацию о соседях Республики Беларусь.</p>
+<img src="images/belmap.jpeg" alt="belarus_map" usemap="#map" width="979" height="875">
+<map name="map">
+    <area shape="rect" coords="431 362 548 386" alt="Minsk"
+          href="https://ru.wikipedia.org/wiki/%D0%9C%D0%B8%D0%BD%D1%81%D0%BA" target="_blank">
+    <area shape="rect" coords="673 362 766 392" alt="Mohilev"
+          href="https://ru.wikipedia.org/wiki/%D0%9C%D0%BE%D0%B3%D0%B8%D0%BB%D1%91%D0%B2" target="_blank">
+    <area shape="rect" coords="759 596 830 635" alt="Homel"
+          href="https://ru.wikipedia.org/wiki/%D0%93%D0%BE%D0%BC%D0%B5%D0%BB%D1%8C" target="_blank">
+    <area shape="rect" coords="40 661 121 696" alt="Brest"
+          href="https://ru.wikipedia.org/wiki/%D0%91%D1%80%D0%B5%D1%81%D1%82" target="_blank">
+    <area shape="rect" coords="49 393 128 424" alt="Hrodna"
+          href="https://ru.wikipedia.org/wiki/%D0%93%D1%80%D0%BE%D0%B4%D0%BD%D0%BE" target="_blank">
+    <area shape="rect" coords="683 146 774 176" alt="Vitebsk"
+          href="https://ru.wikipedia.org/wiki/%D0%92%D0%B8%D1%82%D0%B5%D0%B1%D1%81%D0%BA" target="_blank">
+    <area shape="circle" coords="877 202 100" alt="Russia"
+          href="https://ru.wikipedia.org/wiki/%D0%A0%D0%BE%D1%81%D1%81%D0%B8%D1%8F" target="_blank">
+    <area shape="circle" coords="868 723 100" alt="Ukraine"
+          href="https://ru.wikipedia.org/wiki/%D0%A3%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0" target="_blank">
+    <area shape="circle" coords="150 183 100" alt="Lithuania"
+          href="https://ru.wikipedia.org/wiki/%D0%9B%D0%B8%D1%82%D0%B2%D0%B0" target="_blank">
+    <area shape="circle" coords="370 38 50" alt="Latvia"
+          href="https://ru.wikipedia.org/wiki/%D0%9B%D0%B0%D1%82%D0%B2%D0%B8%D1%8F" target="_blank">
+    <area shape="circle" coords="28 492 50" alt="Poland"
+          href="https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%BB%D1%8C%D1%88%D0%B0" target="_blank">
+</map>
+
+
+</body>
+</html>

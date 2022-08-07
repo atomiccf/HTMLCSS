@@ -1,0 +1,39 @@
+
+
+
+
+.left {
+    background: url("ball3.png") no-repeat top left,
+    url("ball3.png") no-repeat top right,
+    url("ball3.png") no-repeat bottom right,
+    url("ball3.png") no-repeat bottom left,
+    url("line1.png");
+    width: 20%;
+    overflow: hidden;
+    height: 50vh;
+    float: left;
+
+}
+
+.right {
+    background: url("ball3.png") no-repeat top left,
+    url("ball3.png") no-repeat bottom right,
+    url("ball3.png") no-repeat bottom left,
+    url("ball3.png") no-repeat top right,
+    url("line.png");
+    width: 200px;
+    height: 50vh;
+       float: right;
+}
+
+.content {
+    background: url("ball3.png") no-repeat top left,
+    url("ball3.png") no-repeat top right,
+    url("ball3.png") no-repeat bottom right,
+    url("ball3.png") no-repeat bottom left, #c07475;
+    overflow: hidden;
+    height: 50vh;
+    margin-left: 20%;
+    margin-right: 200px;
+
+}

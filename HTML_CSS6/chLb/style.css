@@ -1,0 +1,36 @@
+
+a+p{
+    color: blue;
+    font-style: italic;
+}
+a+p+p{
+    color: blue;
+    font-style: italic;
+}
+
+a+p+p+p{
+    color: blue;
+    font-style: italic;
+}
+
+.bald {
+
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.bald +p {
+    color: green;
+}
+
+.bald +p+p {
+    color: red;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
