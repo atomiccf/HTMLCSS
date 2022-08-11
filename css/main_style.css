@@ -23,14 +23,7 @@ li:first-child{
     text-decoration: underline;
     list-style-type: none;
 }
-.border1{
 
-    border: 80px solid red;
-    border-image-repeat:round ;
-    padding: 5px;
-    font-size: 1.5em;
-    background-color: antiquewhite;
-}
 
 h1{
     text-align: center;
