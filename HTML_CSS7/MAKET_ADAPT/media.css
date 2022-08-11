@@ -1,0 +1,52 @@
+@import url(style.css);
+
+@media all and (max-width:858px){
+    .menu {
+        float: left;
+        width: 170px;
+
+
+    }
+
+    .content {
+
+        margin-left: 200px;
+        background: url("ball.png") repeat-y right top #0a0dfd;
+        overflow: hidden;
+    }
+    .container {
+        background: url(lineGL.png) repeat-y left top;
+    }
+}
+
+
+@media all and (max-width:750px){
+    .menu{
+        float:none;
+        width: 100%;
+        background: url(lineGL.png) repeat-x left top #80ff00;
+    }
+    .menu ul {
+
+        display:flex ;
+        flex-flow: row wrap;
+    }
+    .menu ul li {
+        margin-right: 20px;
+    }
+
+    .content {
+        width: 100%;
+        float: none;
+        margin-left: 0;
+        background:  #0a0dfd;
+        overflow: hidden;
+    }
+    .container {
+        background: url("ball.png") repeat-x right bottom;
+    }
+    img {
+        float: none;
+        width: 100%;
+    }
+}
