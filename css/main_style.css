@@ -26,8 +26,6 @@ li:first-child{
 .border1{
 
     border: 80px solid red;
-    border-image: url(../general_images/red_frame.png);
-    border-image-slice: 120;
     border-image-repeat:round ;
     padding: 5px;
     font-size: 1.5em;
@@ -36,14 +34,14 @@ li:first-child{
 
 h1{
     text-align: center;
-    font-family: 'Corporate A Pro';
+    font-family: 'Corporate A Pro',sans-serif;
     background: linear-gradient(to right, red, yellow);
     -webkit-background-clip: text;
     color: rgba(0,0,0,0);
 }
 
 h2{
-    font-family: 'Corporate A Pro';
+    font-family: 'Corporate A Pro',sans-serif;
     text-align: center;
     background: linear-gradient(to right, red, yellow);
     -webkit-background-clip: text;
@@ -51,7 +49,7 @@ h2{
 }
 
 h3{
-    font-family: 'Corporate A Pro';
+    font-family: 'Corporate A Pro',sans-serif;
     background: linear-gradient(to right, red, yellow);
     -webkit-background-clip: text;
     color: rgba(0,0,0,0);
