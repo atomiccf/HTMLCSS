@@ -16,13 +16,15 @@
 
             a[href*='//']{
                font-size: 0;
+                text-decoration: none;
            }
             a[href*='//']:before{
                 content: none;
             }
             a[href*='//']::after{
-                content: 'Сслыка на Информация (' attr(href) ')';
+                content: 'Сслыка Информация (' attr(href) ')';
                 font-size: 16px;
+
 
             }
         }
