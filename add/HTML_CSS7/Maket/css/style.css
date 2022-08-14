@@ -481,7 +481,6 @@ float: left;
 }
 .projects p{
     margin: 0 auto;
-
     font-family: 'Jost',sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -495,7 +494,7 @@ float: left;
 .projects ~ div {
 
        border-radius: 0px 80px 0px 0px;
-    float: left;
+
 
 }
 
@@ -528,20 +527,78 @@ float: left;
 
 }
 .projects_wrapper  {
+
     margin-top: 71px;
 
 }
 
-.projects_wrapper > div  {
-   float: left;
+.projects_wrapper div:nth-child(odd){
+    float: left;
     margin-left: 120px;
     margin-right: 20px;
     margin-bottom: 24px;
+}
+
+.projects_wrapper div:nth-child(even){
+    float: right;
+    margin-right: 120px;
+    margin-bottom: 24px;
+}
+
+.projects_wrapper div:nth-child(even) button{
+    float: right;
+}
+
+.projects_wrapper div:nth-child(even) p{
+    float: left;
+}
+
+.projects_wrapper div:nth-child(odd) button{
+    float: right;
+}
+
+.projects_wrapper div:nth-child(odd) p{
+    float: left;
+}
+
+.project_stats{
+    margin-top: 140px;
+    width: 1440px;
+    background: #F4F0EC;
+
+}
+.stats {
+    margin: 0 auto;
+    width: 100%;
+    border-right: solid #CDA274 1px;
+}
+
+.stats tr:first-child td{
+    font-family: 'DM Serif Display',serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 85px;
+    line-height: 128px;
+     text-align: center;
+    letter-spacing: 1.7px;
+    color: #CDA274;
+    border-right: solid #CDA274 1px;
 
 }
 
-.projects_wrapper > button  {
-    float: left;
+.stats tr:nth-child(2) td{
+      font-family: 'Jost',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.22px;
+    color: #4D5053;
+    border-right: solid #CDA274 1px;
 
+}
 
+.stats tr td:last-child{
+    border-right: none;
 }
