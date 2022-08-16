@@ -1,14 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b06516d-9e8f-401f-875f-bcaecdf5c3e4" name="Changes" comment="&#10;add tasks HTML CSS 7">
+    <list default="true" id="2b06516d-9e8f-401f-875f-bcaecdf5c3e4" name="Changes" comment="done interno layout not adapt">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/add/HTML_CSS7/Maket/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/add/HTML_CSS7/Maket/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add/HTML_CSS7/Maket/img/brand_img1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/add/HTML_CSS7/Maket/img/brand_img2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/add/HTML_CSS7/Maket/img/brand_img3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/add/HTML_CSS7/Maket/img/brand_img4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/add/HTML_CSS7/Maket/img/brand_img5.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/add/HTML_CSS7/Maket/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/add/HTML_CSS7/Maket/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -106,28 +101,8 @@
       <workItem from="1660191384751" duration="605000" />
       <workItem from="1660228642677" duration="26791000" />
       <workItem from="1660424248690" duration="16068000" />
-      <workItem from="1660490293222" duration="10043000" />
-    </task>
-    <task id="LOCAL-00032" summary="add font task">
-      <created>1657972298552</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1657972298552</updated>
-    </task>
-    <task id="LOCAL-00033" summary="add pan task">
-      <created>1657987662493</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1657987662493</updated>
-    </task>
-    <task id="LOCAL-00034" summary="add pan task">
-      <created>1657987759234</created>
-      <option name="number" value="00034" />
-      <option name="presentableId" value="LOCAL-00034" />
-      <option name="project" value="LOCAL" />
-      <updated>1657987759234</updated>
+      <workItem from="1660490293222" duration="11741000" />
+      <workItem from="1660660357833" duration="6057000" />
     </task>
     <task id="LOCAL-00035" summary="add pan task">
       <created>1657987891021</created>
@@ -451,7 +426,28 @@
       <option name="project" value="LOCAL" />
       <updated>1660458008805</updated>
     </task>
-    <option name="localTasksCounter" value="81" />
+    <task id="LOCAL-00081" summary="done interno layout not adapt">
+      <created>1660594191794</created>
+      <option name="number" value="00081" />
+      <option name="presentableId" value="LOCAL-00081" />
+      <option name="project" value="LOCAL" />
+      <updated>1660594191795</updated>
+    </task>
+    <task id="LOCAL-00082" summary="done interno layout not adapt">
+      <created>1660594603375</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1660594603375</updated>
+    </task>
+    <task id="LOCAL-00083" summary="done interno layout not adapt">
+      <created>1660594934470</created>
+      <option name="number" value="00083" />
+      <option name="presentableId" value="LOCAL-00083" />
+      <option name="project" value="LOCAL" />
+      <updated>1660594934470</updated>
+    </task>
+    <option name="localTasksCounter" value="84" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -500,6 +496,7 @@
     <MESSAGE value="&#10;delet border" />
     <MESSAGE value="&#10;add icons" />
     <MESSAGE value="&#10;add tasks HTML CSS 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="&#10;add tasks HTML CSS 7" />
+    <MESSAGE value="done interno layout not adapt" />
+    <option name="LAST_COMMIT_MESSAGE" value="done interno layout not adapt" />
   </component>
 </project>
