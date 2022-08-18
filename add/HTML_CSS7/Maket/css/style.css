@@ -10,8 +10,6 @@ body {
 }
 
 
-
-
 .clearfix {
     clear: both;
 
@@ -154,7 +152,7 @@ nav ul li a {
 
 /* content*/
 .content {
-    margin-top: 170px;
+    padding-top: 170px;
 
 }
 
@@ -259,8 +257,12 @@ nav ul li a {
 
 .design_img {
     float: right;
-    overflow: hidden;
     margin-right: 140px;
+    height: 635px;
+    width: 592px;
+    background: url("../img/design_img_mine.jpg") no-repeat top center;
+    background-size: cover;
+    border-radius: 0 326px 0 123px;
 }
 
 .design {
@@ -280,7 +282,6 @@ nav ul li a {
     color: #292F36;
     padding-left: 120px;
     margin: 0;
-
 }
 
 .design p {
@@ -379,7 +380,7 @@ nav ul li a {
 }
 .review_item1 {
     float: left;
-     width: 354px;
+    width: 354px;
     height: 287px;
     margin-left: 51px;
     padding-left: 35px;
@@ -570,9 +571,7 @@ float: left;
 .project_stats{
     padding: 154px 75px 150px 75px;
     margin-top: 140px;
-
-    width: 1440px;
-    height: 475px;
+    width: 100%;
     background: #F4F0EC no-repeat;
     border-radius: 0 0 0 0;
     text-align: center;
@@ -630,7 +629,7 @@ blog block
 
 
 .blog h2{
-       width: 274px;
+    width: 274px;
     margin: 0 auto;
     font-family: 'DM Serif Display',serif;
     font-style: normal;
@@ -694,7 +693,7 @@ blog block
 }
 
 
-.blog_wrapper .blog_item1{
+ .blog_item1{
 
     float: left;
     margin-right: 20px;
@@ -707,7 +706,7 @@ blog block
 
 }
 
-.blog_wrapper .blog_item2{
+ .blog_item2{
     float: left;
     margin-top: 70px;
     padding: 21px;
@@ -718,9 +717,8 @@ blog block
 
 }
 
-.blog_wrapper .blog_item3{
+ .blog_item3{
     float: right;
-    margin-right: 237px;
     margin-top: 70px;
     padding: 21px;
     width: 387px;
@@ -731,7 +729,7 @@ blog block
 }
 .contact{
 
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
     background: #292F36;
     border-radius: 70px;
@@ -769,7 +767,7 @@ blog block
 
 .contact button{
     box-sizing: border-box;
-    margin-left: 474px;
+    margin-left: 600px;
     width: 241px;
     height: 71px;
     background: url("../img/button_arrow1.png") no-repeat right, #CDA274;
@@ -848,7 +846,6 @@ footer p{
 }
 
 .copyright p{
-    float: left;
     margin-top: 35px;
     margin-left: 320px;
     font-family: 'Jost',sans-serif;
