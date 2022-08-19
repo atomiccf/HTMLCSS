@@ -835,13 +835,14 @@ footer p{
     color: #4D5053;
 }
 .first_column img{
-    margin-right: 40px;
+    margin-right: 12px;
 
 }
 
 .copyright{
     width: 1440px;
     height: 104px;
+    padding-right: 180px;
     text-align: center;
 }
 
