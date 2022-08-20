@@ -1,0 +1,27 @@
+form {
+  padding-left: 20px;
+}
+
+.clear {
+  clear: both;
+}
+
+.article_name span {
+  display: block;
+  float: left;
+}
+
+.article_name:nth-child(1) {
+  float: right;
+}
+
+.article_name div input {
+  width: 100%;
+}
+
+div textarea {
+  display: block;
+  width: auto;
+}
+
+/*# sourceMappingURL=style.css.map */

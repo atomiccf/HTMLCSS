@@ -1,0 +1,68 @@
+
+.header {
+    position: relative;
+    background-color: #add8e6;
+    color: #0a0dfd;
+    text-align: center;
+    text-transform: uppercase;
+    height: 50px;
+    padding: 1px;
+    font-family: Arial serif;
+}
+
+.menu {
+    float: left;
+    width: 170px;
+
+
+}
+
+.content {
+    position: relative;
+    margin-left: 200px;
+    background: url("ball.png") repeat-y right top;
+    overflow: hidden;
+}
+
+.singup {
+    position: fixed;
+    right: 72px;
+    top: 36px;
+    width: 90px;
+    height: 46px;
+    background-color: #90ee90;
+    border: 1px solid #008000;
+}
+.singup a {
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+
+
+}
+
+
+.footer {
+    background-color: #add8e6;
+    color: #0a0dfd;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 1px;
+    height: 50px;
+    margin: 0px;
+    font-family: Arial serif;
+    clear: both;
+}
+
+.container {
+    background: url(line_1.png) repeat-y left top;
+}
+
+
+img {
+    float: left;
+}
+
+h2 {
+    text-align: center;
+}
