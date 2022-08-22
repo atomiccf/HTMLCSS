@@ -1,37 +1,162 @@
-form{
+form {
   padding-left: 20px;
 
 }
 
-
-.clear {
-clear: both;
-
-
-
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .article_name {
-  span{
-    display: block;
-    float: left;
+  margin-bottom: 7px;
+
+  label {
+    display: inline-block;
+    width: 100%;
+    float: right;
+
+    span {
+      display: block;
+      float: left;
+      margin-right: 60px;
+    }
+
+    input {
+      width: 88%;
+
+    }
 
   }
+
+}
+
+.heading {
+  margin-bottom: 7px;
+
+  span {
+    display: block;
+    float: left;
+    margin-right: 116px;
+  }
+
+
+}
+
+.publish {
+  margin-bottom: 7px;
+
+  > span {
+    float: left;
+    display: block;
+    margin-right: 84px;
+  }
+
+  label {
+    display: inline-block;
+
+  }
+
+}
+
+.article {
+  margin-bottom: 7px;
+
+  label {
+    display: inline-block;
+    width: 100%;
+
+    textarea {
+      display: block;
+      width: 100%;
+    }
+
+
+  }
+
+
+}
+
+.style_check {
+  visibility: hidden;
+
+}
+
+.stylisation {
+  position: relative;
+
+
+  label{
+  margin-right: 35px;
+
+}
+  .style_check::before {
+    visibility: visible;
+    content: url("img/toggle_off.png");
+    position: relative;
+    top: -1.5em;
+    left:-1.5em;
+  }
+  .style_check:checked::before {
+    content: url("img/toggle_on.png");
+
+  }
+
+
+}
+
+@media all and (max-width: 556px) {
+  .article_name {
+    input {
+      width: 100%;
+
+    }
+
+  }
+
+
+  .heading {
+
+    span {
+      display: block;
+      float: none;
+      margin-right: 0;
+    }
+
+
+  }
+
+  > span {
+    float: none;
+    display: block;
+    margin-right: 84px;
+  }
+
+  .publish {
+
+    span {
+      float: none;
+      margin-right: 0;
+    }
+
+
+    label {
+      display: block;
+
+
+    }
+
+
+  }
+
 }
 
 
-.article_name:nth-child(1){
-
-  float: right;
-
-}
-.article_name div input{
-  width: 100%;
-}
 
 
 
-div textarea {
-  display: block;
-  width: auto;
-}
+
+
+
+

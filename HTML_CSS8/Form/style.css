@@ -2,26 +2,104 @@ form {
   padding-left: 20px;
 }
 
-.clear {
+.clearfix:after {
+  content: "";
+  display: table;
   clear: both;
 }
 
-.article_name span {
-  display: block;
-  float: left;
+.article_name {
+  margin-bottom: 7px;
 }
-
-.article_name:nth-child(1) {
+.article_name label {
+  display: inline-block;
+  width: 100%;
   float: right;
 }
+.article_name label span {
+  display: block;
+  float: left;
+  margin-right: 60px;
+}
+.article_name label input {
+  width: 88%;
+}
 
-.article_name div input {
+.heading {
+  margin-bottom: 7px;
+}
+.heading span {
+  display: block;
+  float: left;
+  margin-right: 116px;
+}
+
+.publish {
+  margin-bottom: 7px;
+}
+.publish > span {
+  float: left;
+  display: block;
+  margin-right: 84px;
+}
+.publish label {
+  display: inline-block;
+}
+
+.article {
+  margin-bottom: 7px;
+}
+.article label {
+  display: inline-block;
+  width: 100%;
+}
+.article label textarea {
+  display: block;
   width: 100%;
 }
 
-div textarea {
-  display: block;
-  width: auto;
+.style_check {
+  visibility: hidden;
+}
+
+.stylisation {
+  position: relative;
+}
+.stylisation label {
+  margin-right: 35px;
+}
+.stylisation .style_check::before {
+  visibility: visible;
+  content: url("img/toggle_off.png");
+  position: relative;
+  top: -1.5em;
+  left: -1.5em;
+}
+.stylisation .style_check:checked::before {
+  content: url("img/toggle_on.png");
+}
+
+@media all and (max-width: 556px) {
+  .article_name input {
+    width: 100%;
+  }
+  .heading span {
+    display: block;
+    float: none;
+    margin-right: 0;
+  }
+  > span {
+    float: none;
+    display: block;
+    margin-right: 84px;
+  }
+  .publish span {
+    float: none;
+    margin-right: 0;
+  }
+  .publish label {
+    display: block;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

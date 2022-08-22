@@ -694,7 +694,7 @@ blog block
 
 
  .blog_item1{
-
+    position: relative;
     float: left;
     margin-right: 20px;
     margin-top: 70px;
@@ -707,6 +707,7 @@ blog block
 }
 
  .blog_item2{
+     position: relative;
     float: left;
     margin-top: 70px;
     padding: 21px;
@@ -718,6 +719,7 @@ blog block
 }
 
  .blog_item3{
+     position: relative;
     float: right;
     margin-top: 70px;
     padding: 21px;
@@ -727,6 +729,36 @@ blog block
     border-radius: 62px;
 
 }
+
+.blog_item1 .rectangle {
+    top: 238px;
+    right: 217px;
+}
+
+.blog_item2 .rectangle {
+    top: 238px;
+    right: 217px;
+}
+
+
+.blog_item3 .rectangle {
+    top: 244px;
+    right: 217px;
+}
+
+.rectangle {
+    position: absolute;
+    width: 125px;
+    height: 45px;
+    background: #FFFFFF;
+    border-radius: 8px 8px 8px 0;
+    padding-top: 13px;
+    padding-left: 11px;
+}
+
+
+
+
 .contact{
 
     width: 100%;

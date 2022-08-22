@@ -6,67 +6,72 @@
     <title>Form</title>
 </head>
 <body>
-<form action="https://fe.it-academy.by/TestForm.php" method="post">
-   <p> Для публикации вашей статьи заполните, пожалуйста, следующую форму: </p>
+<form action="https://fe.it-academy.by/TestForm.php" method="Post">
+    <p> Для публикации вашей статьи заполните, пожалуйста, следующую форму: </p>
 
 
-    <div class="article_name">
+    <div class="article_name clearfix">
+      <div style="width: 100%">
+          <label>
+          <span>Название статьи:</span>
+          <input type="text" name="article_name" id="article_name">
+      </label>
 
-            <label for="article_name">
-            <span>Название статьи:</span>
-             </label>
-            <div><input type="text" name="article_name" id="article_name"></div>
-
-
-
-       <div>
+      </div>
 
 
-
-        </div>
     </div>
 
 
-    <!--<div>
-        <label for="heading">
+    <div class="heading clearfix">
+        <label>
             <span>Рубрика:</span>
-        </label>
-        <div>
-            <select name="heading" id="heading">
-                <option value="1">компьтерная техника</option>
+            <select>
+                <option value="1">компьютерная техника</option>
                 <option value="2">графика и дизайн</option>
                 <option value="3"> программирование</option>
             </select>
-        </div>
+
+
+        </label>
 
     </div>
 
-   <div>
+    <div class="publish clearfix">
         <span>Публикация:</span>
+        <div>
+            <label><input type="radio" name="site" id="1"> <span>на сайте</span></label>
+            <label><input type="radio" name="magazine" id="2"> <span>в журнале</span></label>
+            <label><input type="radio" name="all" id="3"><span>на сайте и в журнале</span></label>
+        </div>
+    </div>
 
-        <label><input type="radio" name="site" id="1"> <span>на сайте</span></label>
-       <label><input type="radio" name="magazine" id="2"> <span>в журнале</span></label>
-       <label><input type="radio" name="all" id="3"><span>на сайте и в журналее</span></label>
-        <label for="comment">
 
-            <span>Разрешить комментарии:</span></label>
+    <div class="comment">
+        <label><span>Разрешить комментарии:</span><input type="checkbox" name="comment" id="comment">
+            </label>
 
-       <input type="checkbox" name="comment" id="comment">
 
-        <label for="article">
-            <span>Текст статьи:</span> <br>
+    </div>
+    <div class="article">
+        <label >
+            <span>Текст статьи:</span>
+            <textarea id="article"></textarea>
+
+                    </label>
+
+
+    <input type="submit" value="Опубликовать">
+    </div>
+
+<div class="stylisation">
+    <label for="style"><span>Стилизация чекбокса:</span>
+
         </label>
-       <div><textarea id="article"></textarea><br></div>
-
-        <input type="submit" value="Отправить">
-    </div>-->
-
-
+    <input class="style_check" type="checkbox" id="style">
+</div>
 
 </form>
-
-
-
 
 
 </body>
