@@ -40,7 +40,20 @@ form {
     float: left;
     margin-right: 116px;
   }
+  select{
+    background-color: #e9e9ed;
+   border-radius: 3px;
+    width: 201px;
+    height: 23px;
 
+    option{
+      background-color: black;
+      color: #FFFFFF;
+
+
+    }
+
+  }
 
 }
 
@@ -108,10 +121,15 @@ form {
 
 @media all and (max-width: 556px) {
   .article_name {
-    input {
-      width: 100%;
 
-    }
+label{
+  input {
+    width: 100%;
+
+  }
+}
+
+
 
   }
 
@@ -123,7 +141,10 @@ form {
       float: none;
       margin-right: 0;
     }
+    select{
+      width: 100%;
 
+    }
 
   }
 
@@ -146,6 +167,9 @@ form {
 
 
     }
+
+
+
 
 
   }
