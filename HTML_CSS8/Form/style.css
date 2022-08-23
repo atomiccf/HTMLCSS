@@ -11,11 +11,6 @@ form {
 .article_name {
   margin-bottom: 7px;
 }
-.article_name label {
-  display: inline-block;
-  width: 100%;
-  float: right;
-}
 .article_name label span {
   display: block;
   float: left;
@@ -23,6 +18,7 @@ form {
 }
 .article_name label input {
   width: 88%;
+  float: right;
 }
 
 .heading {

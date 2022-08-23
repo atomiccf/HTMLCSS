@@ -13,10 +13,6 @@ form {
   margin-bottom: 7px;
 
   label {
-    display: inline-block;
-    width: 100%;
-    float: right;
-
     span {
       display: block;
       float: left;
@@ -25,7 +21,7 @@ form {
 
     input {
       width: 88%;
-
+      float: right;
     }
 
   }
