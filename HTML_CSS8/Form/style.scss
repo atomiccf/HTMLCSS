@@ -3,28 +3,29 @@ form {
 
 }
 
+
 .clearfix:after {
   content: "";
   display: table;
   clear: both;
 }
 
+p+label  {
+  float: left;
+
+
+}
+
 .article_name {
   margin-bottom: 7px;
+margin-left: 176px;
+  input{
 
-  label {
-    span {
-      display: block;
-      float: left;
-      margin-right: 60px;
-    }
-
-    input {
-      width: 88%;
-      float: right;
-    }
-
+width: 100%;
   }
+
+
+
 
 }
 

@@ -18,7 +18,7 @@
 }
 
 .content {
-    position: relative;
+
     margin-left: 200px;
     background: url("ball.png") repeat-y right top;
     overflow: hidden;

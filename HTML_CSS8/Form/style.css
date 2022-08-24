@@ -8,17 +8,16 @@ form {
   clear: both;
 }
 
+p + label {
+  float: left;
+}
+
 .article_name {
   margin-bottom: 7px;
+  margin-left: 176px;
 }
-.article_name label span {
-  display: block;
-  float: left;
-  margin-right: 60px;
-}
-.article_name label input {
-  width: 88%;
-  float: right;
+.article_name input {
+  width: 100%;
 }
 
 .heading {
