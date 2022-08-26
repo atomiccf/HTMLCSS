@@ -1,0 +1,82 @@
+header {
+  background-color: #add8e6;
+  color: #0a0dfd;
+  text-align: center;
+  text-transform: uppercase;
+  height: 50px;
+  padding: 1px;
+  font-family: Arial, serif;
+}
+
+section {
+  display: flex;
+  flex-flow: row nowrap;
+}
+section .menu {
+  padding-right: 18px;
+  max-width: 170px;
+  background-color: #f0e78d;
+}
+section .content {
+  padding-left: 10px;
+  background: url("../img/ball.png") repeat-y right top;
+}
+section .content h2 {
+  text-align: center;
+}
+section .content img {
+  float: left;
+  margin-right: 10px;
+}
+
+footer {
+  background-color: #add8e6;
+  color: #0a0dfd;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 1px;
+  height: 50px;
+  margin: 0;
+  font-family: Arial, serif;
+  clear: both;
+}
+
+@media all and (max-width: 521px) {
+  section {
+    display: flex;
+    flex-flow: column-reverse nowrap;
+  }
+  section .menu {
+    display: flex;
+    flex-flow: column wrap;
+    padding-right: 0;
+    width: 100%;
+    background-color: #FFFFFF;
+    justify-content: center;
+  }
+  section .menu h2 {
+    text-align: center;
+  }
+  section .menu ul {
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+  }
+  section .menu ul li {
+    margin-left: 5px;
+  }
+  section .content {
+    padding-left: 10px;
+    background: none;
+  }
+  section .content h2 {
+    text-align: center;
+  }
+  section .content img {
+    float: none;
+    width: 100%;
+    margin-right: 0;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

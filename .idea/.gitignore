@@ -1,10 +1,9 @@
 # Default ignored files
 /shelf/
-D:\work\HTMLCSS\.idea\workspace.xml
-
+/workspace.xml
+/style.css.map
 /watcherTasks.xml
-D:\work\HTML_CSS8\Form\style.css.map
-D:\work\HTML_CSS8\PositionObjects\style.css.map
+
 
 # Editor-based HTTP Client requests
 /httpRequests/
