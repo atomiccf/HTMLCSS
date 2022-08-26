@@ -50,20 +50,20 @@ footer {
     display: flex;
     flex-flow: column wrap;
     padding-right: 0;
-    width: 100%;
+    max-width: 100%;
     background-color: #FFFFFF;
-    justify-content: center;
+    align-content: flex-start;
   }
   section .menu h2 {
-    text-align: center;
+    text-align: left;
   }
   section .menu ul {
-    display: flex;
     padding-left: 0;
     list-style: none;
   }
   section .menu ul li {
-    margin-left: 5px;
+    display: inline-block;
+    margin-right: 10px;
   }
   section .content {
     padding-left: 10px;

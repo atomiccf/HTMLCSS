@@ -37,9 +37,7 @@
 
   }
 
-
 }
-
 
   footer {
   background-color: #add8e6;
@@ -62,32 +60,26 @@
         display: flex;
         flex-flow: column wrap;
         padding-right: 0;
-        width: 100%;
+        max-width: 100%;
         background-color: #FFFFFF;
-       justify-content: center;
+        align-content: flex-start;
 
         h2{
-          text-align: center;
+          text-align: left;
         }
 
         ul {
 
-          display: flex;
           padding-left: 0;
           list-style: none;
+
+
           li{
-
-            margin-left: 5px;
-          a{
-
+            display: inline-block;
+            margin-right: 10px;
 
           }
-
-          }
-
-
         }
-
       }
 
       .content {
