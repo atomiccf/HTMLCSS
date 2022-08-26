@@ -1,4 +1,12 @@
-  header {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+
+}
+
+header {
   background-color: #add8e6;
   color: #0a0dfd;
   text-align: center;
@@ -15,6 +23,7 @@
   flex-flow: row nowrap;
 
   .menu {
+    padding-left: 18px;
     padding-right: 18px;
     max-width: 170px;
     background-color: #f0e78d;
@@ -59,23 +68,28 @@
       .menu {
         display: flex;
         flex-flow: column wrap;
-        padding-right: 0;
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        margin-top: 10px;
         max-width: 100%;
         background-color: #FFFFFF;
         align-content: flex-start;
 
-        h2{
+        h3{
           text-align: left;
+          margin-bottom: 0;
         }
 
         ul {
-
+          display: flex;
+          flex-flow: row wrap;
           padding-left: 0;
           list-style: none;
 
 
           li{
-            display: inline-block;
+
             margin-right: 10px;
 
           }
