@@ -1,0 +1,43 @@
+@keyframes Animation1
+{
+  from { background: url('spritesheet.png') -5px -5px; }
+  to { background: url('spritesheet.png') -653px -5px; }
+}
+@keyframes Animation2
+{
+  from { background: url('spritesheet_man.png') -5px -5px; }
+  to { background: url('spritesheet_man.png') -1325px -5px; }
+}
+
+@keyframes Animation3
+{
+  from { background: url('spritesheet_dog.png') -5px -5px; }
+  to { background: url('spritesheet_dog.png') -284px -5px; }
+}
+
+.flex_container{
+display: flex;
+  justify-content: space-between;
+}
+
+.anim1
+{
+  width: 71px;
+  height: 67px;
+  animation: Animation1 1s steps(8) infinite;
+}
+
+
+.anim2
+{
+  width: 320px;
+  height: 389px;
+  animation: Animation2 1s steps(5) infinite;
+}
+
+.anim3
+{
+  width: 64px;
+  height: 55px;
+  animation: Animation3 1s steps(5) infinite;
+}

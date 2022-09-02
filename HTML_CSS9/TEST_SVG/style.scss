@@ -1,0 +1,39 @@
+.container {
+  width: 1500px;
+  display: flex;
+  justify-content: center;
+
+  svg {
+
+    #canvas_background:hover{
+      fill: red;
+
+
+    }
+
+    #svg_1:hover{
+
+      stroke-width: 4.5;
+      fill: gray;
+
+    }
+    #svg_3:hover {
+      stroke-width: 4.5;
+
+
+    }
+
+    #svg_4:hover {
+      stroke-width: 4.5;
+
+
+    }
+    #svg_7:hover {
+
+    fill: #0a0dfd;
+
+  }
+
+  }
+
+}

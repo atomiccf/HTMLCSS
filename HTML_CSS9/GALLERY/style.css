@@ -1,0 +1,17 @@
+.container {
+  width: 297px;
+  height: 600px;
+  overflow: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-flow: column;
+}
+.container iframe {
+  width: 297px;
+  height: 225px;
+}
+.container a {
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

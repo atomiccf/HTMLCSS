@@ -1,0 +1,26 @@
+
+
+
+
+.container {
+  width: 297px;
+  height: 600px;
+  overflow: scroll;
+  overflow-x: hidden;
+  display: flex;
+  flex-flow: column;
+
+
+
+    iframe {
+      width: 297px;
+      height: 225px;
+
+
+    }
+
+    a {
+      margin-bottom: 10px;
+
+    }
+  }

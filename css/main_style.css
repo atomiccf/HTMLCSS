@@ -24,7 +24,10 @@ li{
     flex-flow: column wrap;
 }
 
+i{
+    color: crimson;
 
+}
 a{
     text-decoration: none;
 }

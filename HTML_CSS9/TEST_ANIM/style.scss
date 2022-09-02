@@ -1,0 +1,43 @@
+@keyframes MyAnimation3a
+{
+  from { color: cyan; }
+  to { color: magenta; }
+}
+@keyframes MyAnimation3b
+{
+  from { color: black; }
+  to { color: white; }
+}
+
+
+.container_flex {
+display: flex;
+
+
+  .container_flex:hover{
+.fa-wifi {
+animation: Animation25s infinite;
+
+}
+
+
+
+}
+
+i{
+
+  margin-right: 50px;
+  font-size: 200px;
+
+
+}
+  .container_flex:hover{
+    i {
+      animation: MyAnimation3b 5s infinite;
+
+    }
+
+
+
+  }
+}
