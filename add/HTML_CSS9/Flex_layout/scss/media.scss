@@ -249,6 +249,54 @@
 
 }
 
+@media all and (min-width: 768px) and (max-width: 965px) {
+  .second_article{
+    .blog {
+      .item{
+        .item1{
+          margin-left: 300px;
+
+        }
+        .item2{
+          margin-left: 289px;
+
+        }
+        .item3{
+          margin-left: 289px;
+
+        }
+        .item4{
+          margin-left: 289px;
+
+        }
+        .item5{
+          margin-left: 289px;
+
+        }
+        h4 {
+          margin-left: 209px;
+        }
+      }
+
+
+
+    }
+    /*.blog {
+      flex-wrap: wrap;
+
+      div:nth-child(3) {
+        margin-top: 30px;
+      }
+
+
+
+
+    }*/
+
+
+  }
+}
+
 @media all and (min-width: 576px) and (max-width: 977px) {
   .second_article{
     .blog {
