@@ -648,6 +648,9 @@ footer .third_navblock a {
     width: 992px;
     margin: 0 auto;
   }
+  .logo span {
+    display: none;
+  }
   nav button {
     margin-right: 0;
   }
@@ -752,6 +755,9 @@ footer .third_navblock a {
   }
   .second_article .container .flexwrap_2 h2 {
     margin-top: 30px;
+  }
+  .second_article .blog {
+    margin: 0 auto;
   }
   .second_article .blog .item {
     width: 100%;
@@ -923,5 +929,157 @@ footer .third_navblock a {
     margin-bottom: 20px;
   }
 }
+/*
+@media all and (min-width: 320px) {
+  .container {
+    width: 320px;
+    margin: 0 auto;
+
+  }
+
+  header {
+    nav {
+      flex-flow: column;
+      ul{
+        li{
+          margin-right: 10px;
+
+        }
+
+      }
+      button{
+        width: 100%;
+      }
+    }
+
+  }
+  .main_article{
+    .flexwrap_1{
+      h1{
+        width: 100%;
+      }
+      p{
+        width: 100%;
+      }
+
+      .buttons{
+        button:nth-child(1){
+          width: 100%;
+          margin-bottom: 10px;
+        }
+        button:nth-child(2){
+          width: 100%;
+          img{
+            right: 226px;
+          }
+        }
+
+      }
+
+    }
+
+
+  }
+  .second_article {
+    .flexwrap_2{
+      h2{
+        width: 100%;
+      }
+      p{
+        width: 100%;
+      }
+      button{
+        width: 100%;
+      }
+    }
+    .blog {
+      margin-left: 127px;
+      margin-right: 127px;
+      .item{
+
+        .item1{
+          margin-left: 98px;
+
+        }
+        .item2{
+          margin-left: 98px;
+
+        }
+        .item3{
+          margin-left: 98px;
+
+        }
+        .item4{
+          margin-left: 98px;
+
+        }
+        .item5{
+          margin-left: 98px;
+
+        }
+        h4 {
+          margin-left: -22px;
+        }
+      }
+
+
+
+    }
+
+  }
+
+  .third_article {
+    .art3_wrapper{
+      h2{
+        width: 100%;
+      }
+      p{
+        width: 100%;
+      }
+
+
+    }
+  }
+
+
+  footer {
+
+    .nav_flex{
+      padding-left: 50px;
+      .second_navblock {
+        flex-flow: column;
+
+
+      }
+
+      .third_navblock {
+        margin-right: 0;
+
+        ul{
+          li{
+            &:nth-child(4) {
+              margin-bottom: 20px;
+
+            }
+
+          }
+
+
+
+        }
+      }
+
+
+
+
+    }
+
+
+
+
+
+  }
+
+}*/
 
 /*# sourceMappingURL=styles.css.map */
