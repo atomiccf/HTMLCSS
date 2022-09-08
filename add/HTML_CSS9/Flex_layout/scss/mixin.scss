@@ -1,0 +1,12 @@
+@mixin li_style{
+
+  @for $i from 2 to 6 {
+    &:nth-child(n+#{$i}){
+    opacity: 60%;
+      font-size: 14px;
+      color: #FFFFFF;
+  }
+
+  }
+  }
+

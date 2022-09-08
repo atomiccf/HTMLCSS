@@ -1,43 +1,80 @@
-@keyframes MyAnimation3a
-{
-  from { color: cyan; }
-  to { color: magenta; }
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
 }
-@keyframes MyAnimation3b
-{
-  from { color: black; }
-  to { color: white; }
+@keyframes blink {
+  from {
+    opacity: 1.0;
+  }
+
+  to {
+    opacity: 0.0;
+  }
+}
+@keyframes trans {
+  from {
+    transform: translate3d(0,0,0) ;
+    opacity: 1;
+  }
+
+  to {
+    transform: translate3d(-100px,0,0) ;
+    opacity: 0.1;
+  }
+}
+@keyframes reduce {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  50% {
+    transform: scale3d(0.95, 0.95, 0.95);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
 }
 
-
-.container_flex {
-display: flex;
-
-
-  .container_flex:hover{
-.fa-wifi {
-animation: Animation25s infinite;
-
-}
-
-
-
+.block {
+  position: relative;
+  background-color: yellow;
+  color: red;
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  transition-duration: 2s;
 }
 
 i{
-
-  margin-right: 50px;
-  font-size: 200px;
-
-
+  font-size: 100px;
+  margin-left: 30px;
 }
-  .container_flex:hover{
-    i {
-      animation: MyAnimation3b 5s infinite;
-
-    }
 
 
+.block:hover{
+  background-color: violet;
+  color: blue;
 
+
+   .fa-wifi {
+     color:red;
+     animation: 1.5s linear infinite trans;
+
+
+  }
+  .fa-truck{
+    color:lightblue;
+    animation: 1.5s linear infinite reduce;
+
+  }
+
+  .fa-facebook {
+    position: relative;
+    color: yellow;
+    animation: 3s linear infinite rotate;
   }
 }

@@ -8,10 +8,10 @@
 }
 @keyframes Animation2 {
   from {
-    background: url("spritesheet_man.png") -5px -5px;
+    background: url("spritesheet (1).png") -5px -5px;
   }
   to {
-    background: url("spritesheet_man.png") -1325px -5px;
+    background: url("spritesheet (1).png") -1325px -5px;
   }
 }
 @keyframes Animation3 {
@@ -34,15 +34,15 @@
 }
 
 .anim2 {
-  width: 320px;
-  height: 389px;
-  animation: Animation2 1s steps(5) infinite;
+  width: 350px;
+  height: 350px;
+  animation: Animation2 1s steps(4) infinite;
 }
 
 .anim3 {
   width: 64px;
   height: 55px;
-  animation: Animation3 1s steps(5) infinite;
+  animation: Animation3 1s steps(4) infinite;
 }
 
 /*# sourceMappingURL=style.sccs.css.map */

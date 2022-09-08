@@ -1,10 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2b06516d-9e8f-401f-875f-bcaecdf5c3e4" name="Changes" comment="done interno layout not adapt">
+    <list default="true" id="2b06516d-9e8f-401f-875f-bcaecdf5c3e4" name="Changes" comment="add new task">
+      <change afterPath="$PROJECT_DIR$/HTML_CSS9/Sprites/spritesheet (1).png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript_1/Anketa_if/anketa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript_1/Anketa_if/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add/HTML_CSS9/Flex_layout/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add/HTML_CSS9/Flex_layout/scss/media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add/HTML_CSS9/Flex_layout/scss/mixin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add/HTML_CSS9/Flex_layout/scss/reset.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add/HTML_CSS9/Flex_layout/scss/styles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add/HTML_CSS9/Flex_layout/scss/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add/HTML_CSS9/Flex_layout/switch.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add/HTML_CSS7/Maket/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/add/HTML_CSS7/Maket/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/add/HTML_CSS7/Maket/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/add/HTML_CSS7/Maket/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_CSS9/Sprites/style.sccs.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_CSS9/Sprites/style.sccs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_CSS9/Sprites/style.sccs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_CSS9/Sprites/style.sccs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_CSS9/TEST_ANIM/TEST_ANIM.html" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_CSS9/TEST_ANIM/TEST_ANIM.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_CSS9/TEST_ANIM/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_CSS9/TEST_ANIM/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HTML_CSS9/TEST_ANIM/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/HTML_CSS9/TEST_ANIM/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +28,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="SCSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -37,13 +53,14 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;NewWatcherDialog.advanced.open&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/work/HTMLCSS&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.jetbrains.plugins.github.ui.GithubSettingsConfigurable&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -52,11 +69,11 @@
       <recent name="D:\Git_projects\HTMLCSS\HTML_CSS5\MAKET_DIV" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\work\HTMLCSS\JavaScript_1\Anketa_if" />
+      <recent name="D:\work\HTMLCSS\HTML_CSS9\Sprites" />
+      <recent name="D:\work\HTMLCSS\add\HTML_CSS9\Flex_layout" />
+      <recent name="D:\work\HTMLCSS\add\HTML_CSS7\Maket\css" />
       <recent name="D:\work\HTMLCSS\HTML_CSS7\MAKET_ADAPT" />
-      <recent name="D:\Git_projects\HTMLCSS\HTML_CSS5\MAKET_TABLE" />
-      <recent name="D:\Git_projects\HTMLCSS\general_images" />
-      <recent name="D:\Git_projects\HTMLCSS\add\WebP" />
-      <recent name="D:\Git_projects\HTMLCSS" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -102,140 +119,26 @@
       <workItem from="1660228642677" duration="26791000" />
       <workItem from="1660424248690" duration="16068000" />
       <workItem from="1660490293222" duration="11741000" />
-      <workItem from="1660660357833" duration="6057000" />
-    </task>
-    <task id="LOCAL-00035" summary="add pan task">
-      <created>1657987891021</created>
-      <option name="number" value="00035" />
-      <option name="presentableId" value="LOCAL-00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1657987891021</updated>
-    </task>
-    <task id="LOCAL-00036" summary="add pan task">
-      <created>1657987999857</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1657987999857</updated>
-    </task>
-    <task id="LOCAL-00037" summary="add pan task">
-      <created>1658212645662</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1658212645662</updated>
-    </task>
-    <task id="LOCAL-00038" summary="add pan task">
-      <created>1658212665628</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1658212665628</updated>
-    </task>
-    <task id="LOCAL-00039" summary="add pan task">
-      <created>1658225468593</created>
-      <option name="number" value="00039" />
-      <option name="presentableId" value="LOCAL-00039" />
-      <option name="project" value="LOCAL" />
-      <updated>1658225468593</updated>
-    </task>
-    <task id="LOCAL-00040" summary="add pan task">
-      <created>1658236196809</created>
-      <option name="number" value="00040" />
-      <option name="presentableId" value="LOCAL-00040" />
-      <option name="project" value="LOCAL" />
-      <updated>1658236196809</updated>
-    </task>
-    <task id="LOCAL-00041" summary="add DIV_FRAME task">
-      <created>1658255351146</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1658255351146</updated>
-    </task>
-    <task id="LOCAL-00042" summary="add DIV_FRAME task">
-      <created>1658255393327</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1658255393327</updated>
-    </task>
-    <task id="LOCAL-00043" summary="add 5.60 task">
-      <created>1658295299674</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1658295299674</updated>
-    </task>
-    <task id="LOCAL-00044" summary="add 5.60 task">
-      <created>1658298986417</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1658298986417</updated>
-    </task>
-    <task id="LOCAL-00045" summary="change file tree">
-      <created>1658304991003</created>
-      <option name="number" value="00045" />
-      <option name="presentableId" value="LOCAL-00045" />
-      <option name="project" value="LOCAL" />
-      <updated>1658304991003</updated>
-    </task>
-    <task id="LOCAL-00046" summary="change file tree">
-      <created>1658305183994</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1658305183994</updated>
-    </task>
-    <task id="LOCAL-00047" summary="change file tree">
-      <created>1658307626364</created>
-      <option name="number" value="00047" />
-      <option name="presentableId" value="LOCAL-00047" />
-      <option name="project" value="LOCAL" />
-      <updated>1658307626364</updated>
-    </task>
-    <task id="LOCAL-00048" summary="add card task">
-      <created>1658309015019</created>
-      <option name="number" value="00048" />
-      <option name="presentableId" value="LOCAL-00048" />
-      <option name="project" value="LOCAL" />
-      <updated>1658309015019</updated>
-    </task>
-    <task id="LOCAL-00049" summary="add card task">
-      <created>1658309067653</created>
-      <option name="number" value="00049" />
-      <option name="presentableId" value="LOCAL-00049" />
-      <option name="project" value="LOCAL" />
-      <updated>1658309067653</updated>
-    </task>
-    <task id="LOCAL-00050" summary="add card task">
-      <created>1658316406656</created>
-      <option name="number" value="00050" />
-      <option name="presentableId" value="LOCAL-00050" />
-      <option name="project" value="LOCAL" />
-      <updated>1658316406658</updated>
-    </task>
-    <task id="LOCAL-00051" summary="add area task">
-      <created>1658316484187</created>
-      <option name="number" value="00051" />
-      <option name="presentableId" value="LOCAL-00051" />
-      <option name="project" value="LOCAL" />
-      <updated>1658316484187</updated>
-    </task>
-    <task id="LOCAL-00052" summary="add tefal task">
-      <created>1658327973889</created>
-      <option name="number" value="00052" />
-      <option name="presentableId" value="LOCAL-00052" />
-      <option name="project" value="LOCAL" />
-      <updated>1658327973890</updated>
-    </task>
-    <task id="LOCAL-00053" summary="add tefal task">
-      <created>1658328256073</created>
-      <option name="number" value="00053" />
-      <option name="presentableId" value="LOCAL-00053" />
-      <option name="project" value="LOCAL" />
-      <updated>1658328256073</updated>
+      <workItem from="1660660357833" duration="20079000" />
+      <workItem from="1660708805848" duration="26571000" />
+      <workItem from="1660881090031" duration="10137000" />
+      <workItem from="1660931909937" duration="3460000" />
+      <workItem from="1660974282020" duration="18301000" />
+      <workItem from="1661188148872" duration="11590000" />
+      <workItem from="1661271566903" duration="3302000" />
+      <workItem from="1661354028512" duration="2674000" />
+      <workItem from="1661433117964" duration="10081000" />
+      <workItem from="1661543086883" duration="34027000" />
+      <workItem from="1661699036492" duration="8681000" />
+      <workItem from="1661959329794" duration="7538000" />
+      <workItem from="1661971107727" duration="11940000" />
+      <workItem from="1662057504305" duration="9772000" />
+      <workItem from="1662134358728" duration="4263000" />
+      <workItem from="1662192025809" duration="28140000" />
+      <workItem from="1662305244954" duration="14591000" />
+      <workItem from="1662483271859" duration="18886000" />
+      <workItem from="1662570680453" duration="10083000" />
+      <workItem from="1662649908280" duration="5364000" />
     </task>
     <task id="LOCAL-00054" summary="add tefal task">
       <created>1658328275177</created>
@@ -447,7 +350,140 @@
       <option name="project" value="LOCAL" />
       <updated>1660594934470</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="done interno layout not adapt">
+      <created>1660667779184</created>
+      <option name="number" value="00084" />
+      <option name="presentableId" value="LOCAL-00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1660667779184</updated>
+    </task>
+    <task id="LOCAL-00085" summary="done interno layout adapt">
+      <created>1660843526890</created>
+      <option name="number" value="00085" />
+      <option name="presentableId" value="LOCAL-00085" />
+      <option name="project" value="LOCAL" />
+      <updated>1660843526934</updated>
+    </task>
+    <task id="LOCAL-00086" summary="add minor">
+      <created>1660929154319</created>
+      <option name="number" value="00086" />
+      <option name="presentableId" value="LOCAL-00086" />
+      <option name="project" value="LOCAL" />
+      <updated>1660929154339</updated>
+    </task>
+    <task id="LOCAL-00087" summary="add minor">
+      <created>1660929507909</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1660929507909</updated>
+    </task>
+    <task id="LOCAL-00088" summary="add new taask">
+      <created>1660973624459</created>
+      <option name="number" value="00088" />
+      <option name="presentableId" value="LOCAL-00088" />
+      <option name="project" value="LOCAL" />
+      <updated>1660973624459</updated>
+    </task>
+    <task id="LOCAL-00089" summary="add new taask">
+      <created>1660974673993</created>
+      <option name="number" value="00089" />
+      <option name="presentableId" value="LOCAL-00089" />
+      <option name="project" value="LOCAL" />
+      <updated>1660974673993</updated>
+    </task>
+    <task id="LOCAL-00090" summary="add new taask">
+      <created>1661063076879</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1661063076879</updated>
+    </task>
+    <task id="LOCAL-00091" summary="add new task">
+      <created>1661195565943</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1661195565943</updated>
+    </task>
+    <task id="LOCAL-00092" summary="add new task">
+      <created>1661195811569</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1661195811569</updated>
+    </task>
+    <task id="LOCAL-00093" summary="add new task">
+      <created>1661228152978</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1661228152978</updated>
+    </task>
+    <task id="LOCAL-00094" summary="add new task">
+      <created>1661266529187</created>
+      <option name="number" value="00094" />
+      <option name="presentableId" value="LOCAL-00094" />
+      <option name="project" value="LOCAL" />
+      <updated>1661266529187</updated>
+    </task>
+    <task id="LOCAL-00095" summary="add new task">
+      <created>1661273326324</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1661273326324</updated>
+    </task>
+    <task id="LOCAL-00096" summary="add new task">
+      <created>1661362901674</created>
+      <option name="number" value="00096" />
+      <option name="presentableId" value="LOCAL-00096" />
+      <option name="project" value="LOCAL" />
+      <updated>1661362901675</updated>
+    </task>
+    <task id="LOCAL-00097" summary="add new task">
+      <created>1661487336020</created>
+      <option name="number" value="00097" />
+      <option name="presentableId" value="LOCAL-00097" />
+      <option name="project" value="LOCAL" />
+      <updated>1661487336020</updated>
+    </task>
+    <task id="LOCAL-00098" summary="add new task">
+      <created>1661543870647</created>
+      <option name="number" value="00098" />
+      <option name="presentableId" value="LOCAL-00098" />
+      <option name="project" value="LOCAL" />
+      <updated>1661543870647</updated>
+    </task>
+    <task id="LOCAL-00099" summary="add new task">
+      <created>1661545183308</created>
+      <option name="number" value="00099" />
+      <option name="presentableId" value="LOCAL-00099" />
+      <option name="project" value="LOCAL" />
+      <updated>1661545183308</updated>
+    </task>
+    <task id="LOCAL-00100" summary="add new task">
+      <created>1662139649803</created>
+      <option name="number" value="00100" />
+      <option name="presentableId" value="LOCAL-00100" />
+      <option name="project" value="LOCAL" />
+      <updated>1662139649803</updated>
+    </task>
+    <task id="LOCAL-00101" summary="add new task">
+      <created>1662139901901</created>
+      <option name="number" value="00101" />
+      <option name="presentableId" value="LOCAL-00101" />
+      <option name="project" value="LOCAL" />
+      <updated>1662139901901</updated>
+    </task>
+    <task id="LOCAL-00102" summary="add new task">
+      <created>1662139949237</created>
+      <option name="number" value="00102" />
+      <option name="presentableId" value="LOCAL-00102" />
+      <option name="project" value="LOCAL" />
+      <updated>1662139949238</updated>
+    </task>
+    <option name="localTasksCounter" value="103" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -475,7 +511,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="changes" />
     <MESSAGE value="changes childbook" />
     <MESSAGE value="add" />
     <MESSAGE value="add font task" />
@@ -497,6 +532,10 @@
     <MESSAGE value="&#10;add icons" />
     <MESSAGE value="&#10;add tasks HTML CSS 7" />
     <MESSAGE value="done interno layout not adapt" />
-    <option name="LAST_COMMIT_MESSAGE" value="done interno layout not adapt" />
+    <MESSAGE value="done interno layout adapt" />
+    <MESSAGE value="add minor" />
+    <MESSAGE value="add new taask" />
+    <MESSAGE value="add new task" />
+    <option name="LAST_COMMIT_MESSAGE" value="add new task" />
   </component>
 </project>
