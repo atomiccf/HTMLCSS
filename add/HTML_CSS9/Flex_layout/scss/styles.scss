@@ -99,12 +99,15 @@ nav {
   .content_holder {
     display: flex;
     flex-flow: row;
-    justify-content: space-between;
+    justify-content: center;
 
   }
 
   .article_img1 {
-    margin-right: 175px;
+    width: 632px;
+    height: 634px;
+    background: url("../img/rocket.png");
+    background-size: cover;
   }
 
   .flexwrap_1 {
