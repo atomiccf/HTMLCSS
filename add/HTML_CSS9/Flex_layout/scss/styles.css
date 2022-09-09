@@ -253,6 +253,7 @@ nav button {
   flex-grow: 1;
 }
 .blog h4 {
+  margin-left: 30px;
   margin-top: 30px;
   margin-bottom: 16px;
   width: 302px;
@@ -276,8 +277,8 @@ nav button {
 .blog .item {
   width: 362px;
   height: 389px;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding-left: 0;
+  padding-right: 0;
   background-color: #0e1623;
   border-radius: 10px;
   text-align: center;
@@ -286,8 +287,8 @@ nav button {
 .blog .item1 {
   width: 73px;
   height: 69px;
-  margin-left: 120px;
-  margin-top: 47px;
+  margin-left: 142px;
+  margin-top: 62px;
   background: url("../img/spritesheet_icons.png") -5px -5px;
 }
 .blog .item2 {
@@ -725,20 +726,27 @@ footer .third_navblock a {
     white-space: nowrap;
   }
 }
-@media all and (min-width: 768px) and (max-width: 965px) {
-  .second_article {
-    /*.blog {
-      flex-wrap: wrap;
-
-      div:nth-child(3) {
-        margin-top: 30px;
-      }
-
-
-
-
-    }*/
+@media all and (width: 820px) {
+  .blog .item .item1 {
+    margin-left: 300px;
   }
+  .blog .item .item2 {
+    margin-left: 289px;
+  }
+  .blog .item .item3 {
+    margin-left: 289px;
+  }
+  .blog .item .item4 {
+    margin-left: 289px;
+  }
+  .blog .item .item5 {
+    margin-left: 289px;
+  }
+  .blog .item h4 {
+    margin-left: 220px;
+  }
+}
+@media all and (min-width: 768px) and (max-width: 965px) {
   .second_article .blog .item .item1 {
     margin-left: 300px;
   }
@@ -962,7 +970,7 @@ footer .third_navblock a {
     margin-right: 127px;
   }
   .second_article .blog .item .item1 {
-    margin-left: 98px;
+    margin-left: 120px;
   }
   .second_article .blog .item .item2 {
     margin-left: 98px;
@@ -977,7 +985,7 @@ footer .third_navblock a {
     margin-left: 98px;
   }
   .second_article .blog .item h4 {
-    margin-left: -22px;
+    margin-left: 0;
   }
   .third_article .art3_wrapper h2 {
     width: 100%;

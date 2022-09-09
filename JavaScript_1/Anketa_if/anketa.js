@@ -15,19 +15,19 @@ let currentGender;
 
 if (age > 120){
     ageDays ="Похоже вы уже умерли!";
-    ageFiveYears ="Похоже вы уже умерли!"
+    ageFiveYears ="Похоже вы уже умерли!";
 }else if (age<=0){
     ageDays ="Вы еще не родились !";
-    ageFiveYears ="Вы еще не родились !"
+    ageFiveYears ="Вы еще не родились !";
 
 }
 let gender = confirm("Вы мужчина?")
 
 if (gender === true) {
-    currentGender = "мужской"
+    currentGender = "мужской";
 
 } else {
-    currentGender = "женский"
+    currentGender = "женский";
 
 }
 
@@ -46,8 +46,6 @@ if (gender === true || age >= 65 ) {
     ageFiveYears ="введите корректные данные"
     retire = "введите корректные данные";
 }
-
-
 
 
     alert("ваше ФИО: " + ' ' + surName + ' ' + name + ' ' + secondName +

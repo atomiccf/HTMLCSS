@@ -285,7 +285,7 @@ nav {
 
       h4 {
 
-
+        margin-left: 30px;
         margin-top: 30px;
         margin-bottom: 16px;
         width: 302px;
@@ -316,8 +316,8 @@ nav {
 
         width: 362px;
         height: 389px;
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 0;
+        padding-right: 0;
         background-color: #0e1623;
         border-radius: 10px;
         text-align: center;
@@ -329,8 +329,8 @@ nav {
       .item1{
         width: 73px;
         height: 69px;
-        margin-left: 120px;
-        margin-top: 47px;
+        margin-left: 142px;
+        margin-top: 62px;
         background: url("../img/spritesheet_icons.png") -5px -5px;
 
       }
