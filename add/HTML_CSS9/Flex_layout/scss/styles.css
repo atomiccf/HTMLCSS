@@ -115,7 +115,7 @@ nav button {
 .main_article .content_holder {
   display: flex;
   flex-flow: row;
-  justify-content: center;
+  justify-content: flex-start;
 }
 .main_article .article_img1 {
   width: 632px;
@@ -613,6 +613,7 @@ footer .third_navblock a {
   }
   .main_article .article_img1 {
     margin-right: 0;
+    height: 592px;
   }
   .blog {
     flex-wrap: wrap;
@@ -663,9 +664,7 @@ footer .third_navblock a {
   }
   .main_article .content_holder .article_img1 {
     margin-right: 0;
-  }
-  .main_article .content_holder .article_img1 img {
-    width: 100%;
+    background: url("../img/rocket_resize.png");
   }
   .main_article .logo_wrapper {
     flex-wrap: wrap;
@@ -813,9 +812,10 @@ footer .third_navblock a {
   .main_article .content_holder {
     flex-flow: column;
   }
-  .main_article .content_holder .article_img1 img {
-    margin-top: 20px;
-    width: 100%;
+  .main_article .content_holder .article_img1 {
+    width: 575px;
+    background: url("../img/rocket_resze1.png");
+    background-size: cover;
   }
   .main_article .logo_wrapper {
     flex-flow: column;
@@ -943,20 +943,26 @@ footer .third_navblock a {
   header nav button {
     width: 100%;
   }
-  .main_article .flexwrap_1 h1 {
+  .main_article .content_holder .article_img1 {
+    width: 320px;
+    height: 327px;
+    background: url("../img/rocket_resze1.png");
+    background-size: cover;
+  }
+  .main_article .content_holder .flexwrap_1 h1 {
     width: 100%;
   }
-  .main_article .flexwrap_1 p {
+  .main_article .content_holder .flexwrap_1 p {
     width: 100%;
   }
-  .main_article .flexwrap_1 .buttons button:nth-child(1) {
+  .main_article .content_holder .flexwrap_1 .buttons button:nth-child(1) {
     width: 100%;
     margin-bottom: 10px;
   }
-  .main_article .flexwrap_1 .buttons button:nth-child(2) {
+  .main_article .content_holder .flexwrap_1 .buttons button:nth-child(2) {
     width: 100%;
   }
-  .main_article .flexwrap_1 .buttons button:nth-child(2) img {
+  .main_article .content_holder .flexwrap_1 .buttons button:nth-child(2) img {
     right: 226px;
   }
   .second_article .flexwrap_2 h2 {
@@ -1010,6 +1016,10 @@ footer .third_navblock a {
   }
 }
 @media all and (min-width: 320px) and (max-width: 558px) {
+  .container {
+    width: 320px;
+    margin: 0 auto;
+  }
   .second_article {
     /*.blog {
       flex-wrap: wrap;
@@ -1022,6 +1032,9 @@ footer .third_navblock a {
 
 
     }*/
+  }
+  .second_article .blog {
+    display: none;
   }
   .second_article .blog .item {
     overflow: hidden;

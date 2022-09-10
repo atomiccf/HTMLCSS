@@ -15,9 +15,10 @@
   }
 
   .main_article {
+
   .article_img1 {
   margin-right: 0;
-
+  height: 592px;
 
   }
 
@@ -113,11 +114,7 @@
 
         .article_img1 {
           margin-right: 0;
-          img {
-            width: 100%;
-
-
-          }
+          background: url("../img/rocket_resize.png");
 
         }
 
@@ -225,6 +222,8 @@
 
 
 @media all and (min-width: 992px) and (max-width: 1085px) {
+
+
  .second_article{
 
    .blog {
@@ -397,12 +396,9 @@
     flex-flow: column;
 
     .article_img1 {
-      img {
-        margin-top: 20px;
-        width: 100%;
-
-      }
-
+      width: 575px;
+      background: url("../img/rocket_resze1.png");
+      background-size: cover;
     }
 
   }
@@ -660,29 +656,41 @@ button{
 
 }
 .main_article{
-.flexwrap_1{
-  h1{
-    width: 100%;
-  }
-p{
-  width: 100%;
-}
 
-  .buttons{
-    button:nth-child(1){
+.content_holder {
+  .article_img1 {
+    width: 320px;
+    height: 327px;
+    background: url("../img/rocket_resze1.png");
+    background-size: cover;
+  }
+  .flexwrap_1{
+    h1{
       width: 100%;
-      margin-bottom: 10px;
     }
-    button:nth-child(2){
+    p{
       width: 100%;
-      img{
-        right: 226px;
+    }
+
+    .buttons{
+      button:nth-child(1){
+        width: 100%;
+        margin-bottom: 10px;
       }
+      button:nth-child(2){
+        width: 100%;
+        img{
+          right: 226px;
+        }
+      }
+
     }
 
   }
 
 }
+
+
 
 
 }
@@ -789,8 +797,15 @@ p{
 }
 
 @media all and (min-width: 320px) and (max-width: 558px) {
+
+  .container {
+    width: 320px;
+    margin: 0 auto;
+
+  }
   .second_article{
     .blog {
+      display: none;
       .item{
         overflow: hidden;
         .item1{
