@@ -126,11 +126,11 @@
       margin: 0 auto;
 
     }
-      .logo{
+      /*.logo{
         span{
           display: none;
         }
-      }
+      }*/
 
     nav {
       button {
@@ -256,34 +256,6 @@
 
     }
 
-
-@media all and (min-width: 992px) and (max-width: 1085px) {
-
-
- .second_article{
-
-   .blog {
-     flex-wrap: wrap;
-
-     div:nth-child(3) {
-       margin-top: 30px;
-     }
-
-
-
-
-   }
-    .flexwrap_2{
-      button{
-      white-space: nowrap;
-
-      }
-
-    }
- }
-
-}
-
 @media all and (width: 820px) {
 
   .blog {
@@ -321,82 +293,6 @@
 
 }
 
-
-@media all and (min-width: 768px) and (max-width: 965px) {
-  .second_article{
-    .blog {
-      .item{
-        .item1{
-          margin-left: 300px;
-
-        }
-        .item2{
-          margin-left: 289px;
-
-        }
-        .item3{
-          margin-left: 289px;
-
-        }
-        .item4{
-          margin-left: 289px;
-
-        }
-        .item5{
-          margin-left: 289px;
-
-        }
-        h4 {
-          margin-left: 209px;
-        }
-      }
-
-
-
-    }
-
-
-  }
-}
-
-@media all and (min-width: 576px) and (max-width: 977px) {
-  .second_article{
-    .blog {
-      .item{
-        .item1{
-          margin-left: 310px;
-
-        }
-        .item2{
-          margin-left: 300px;
-
-        }
-        .item3{
-          margin-left: 300px;
-
-        }
-        .item4{
-          margin-left: 300px;
-
-        }
-        .item5{
-          margin-left: 307px;
-
-        }
-        h4 {
-          margin-left: 148px;
-        }
-      }
-
-
-
-    }
-
-    }
-  }
-
-
-
 @media all and (max-width: 991px) {
   .container {
     width: 768px;
@@ -405,6 +301,9 @@
   }
 
   nav {
+    ul{
+      margin-left: 0;
+    }
     .logo{
     span{
     display: none;
