@@ -802,19 +802,6 @@ footer .third_navblock a {
   }
 }
 @media all and (min-width: 576px) and (max-width: 977px) {
-  .second_article {
-    /*.blog {
-      flex-wrap: wrap;
-
-      div:nth-child(3) {
-        margin-top: 30px;
-      }
-
-
-
-
-    }*/
-  }
   .second_article .blog .item .item1 {
     margin-left: 310px;
   }
@@ -831,7 +818,7 @@ footer .third_navblock a {
     margin-left: 307px;
   }
   .second_article .blog .item h4 {
-    margin-left: 108px;
+    margin-left: 148px;
   }
 }
 @media all and (max-width: 991px) {
@@ -928,6 +915,9 @@ footer .third_navblock a {
     width: 576px;
     margin: 0 auto;
   }
+  header nav ul {
+    margin-left: 10px;
+  }
   header nav ul li {
     margin-right: 20px;
   }
@@ -941,22 +931,22 @@ footer .third_navblock a {
     margin-top: 30px;
   }
   .second_article .blog .item .item1 {
-    margin-left: 310px;
+    margin-left: 258px;
   }
   .second_article .blog .item .item2 {
-    margin-left: 300px;
+    margin-left: 244px;
   }
   .second_article .blog .item .item3 {
-    margin-left: 300px;
+    margin-left: 244px;
   }
   .second_article .blog .item .item4 {
-    margin-left: 300px;
+    margin-left: 244px;
   }
   .second_article .blog .item .item5 {
-    margin-left: 307px;
+    margin-left: 244px;
   }
   .second_article .blog .item h4 {
-    margin-left: 210px;
+    margin-left: 148px;
   }
   footer .nav_flex .third_navblock {
     margin-right: 365px;
@@ -969,6 +959,9 @@ footer .third_navblock a {
   }
   header nav {
     flex-flow: column;
+  }
+  header nav ul {
+    margin-left: 0;
   }
   header nav ul li {
     margin-right: 10px;

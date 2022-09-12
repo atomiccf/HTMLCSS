@@ -384,25 +384,13 @@
 
         }
         h4 {
-          margin-left: 108px;
+          margin-left: 148px;
         }
       }
 
 
 
     }
-    /*.blog {
-      flex-wrap: wrap;
-
-      div:nth-child(3) {
-        margin-top: 30px;
-      }
-
-
-
-
-    }*/
-
 
     }
   }
@@ -580,6 +568,7 @@ display: inherit;
   header {
     nav{
       ul {
+        margin-left: 10px;
         li{
           margin-right: 20px;
 
@@ -619,27 +608,27 @@ display: inherit;
     .blog {
       .item{
         .item1{
-          margin-left: 310px;
+          margin-left: 258px;
 
         }
         .item2{
-          margin-left: 300px;
+          margin-left: 244px;
 
         }
         .item3{
-          margin-left: 300px;
+          margin-left: 244px;
 
         }
         .item4{
-          margin-left: 300px;
+          margin-left: 244px;
 
         }
         .item5{
-          margin-left: 307px;
+          margin-left: 244px;
 
         }
         h4 {
-          margin-left: 210px;
+          margin-left: 148px;
         }
       }
 
@@ -679,6 +668,7 @@ header {
 nav {
   flex-flow: column;
   ul{
+    margin-left: 0;
     li{
       margin-right: 10px;
 
