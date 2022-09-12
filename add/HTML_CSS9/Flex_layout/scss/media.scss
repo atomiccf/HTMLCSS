@@ -583,6 +583,14 @@ button{
 .main_article{
 
 .content_holder {
+
+  .logo_wrapper{
+    img{
+      &:nth-child(1) {
+        margin-left: 14px;
+      }
+    }
+  }
   .article_img1 {
     width: 320px;
     height: 327px;
@@ -620,6 +628,10 @@ button{
 
 }
   .second_article {
+
+    .article_img2{
+      width: 252px;
+    }
     .flexwrap_2{
       h2{
         width: 100%;
@@ -729,6 +741,11 @@ button{
 
   }
   .second_article{
+
+    .article_img2{
+      width: 252px;
+    }
+
     .blog {
       display: none;
       .item{
@@ -766,17 +783,7 @@ button{
 
 
     }
-    /*.blog {
-      flex-wrap: wrap;
 
-      div:nth-child(3) {
-        margin-top: 30px;
-      }
-
-
-
-
-    }*/
 
 
   }
