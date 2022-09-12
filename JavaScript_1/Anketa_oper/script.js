@@ -14,22 +14,21 @@ let retire;
 let currentGender;
 let gender = confirm("Вы мужчина?");
 
-        (age > 120) ? ageDays = ageFiveYears = "Похоже вы уже умерли!" :
+gender  ? currentGender = "мужской"
+    : currentGender = "женский"
 
-        (age <= 0) ? ageDays = ageFiveYears = "Вы еще не родились !" :
+gender || age >= 65 ? retire = "да" :
+    retire = "нет"
 
-        gender === true ? currentGender = "мужской" : currentGender = "женский"
+gender === false && age >= 58 ? retire = "да" :
+    retire = "нет"
 
-        gender === true || age >= 65 ? retire = "да" : retire = "нет"
 
-        gender === false && age >= 58 ? retire = "да" : retire = "нет"
 
-        isNaN(age) === true ? ageFiveYears = ageDays = age = retire = "введите корректные данные" :
-
-        alert(
-        "ваше ФИО: " + ' ' + surName + ' ' + name + ' ' + secondName +
-        '\nваш возраст в годах: ' + ' ' + age +
-        '\nваш возраст в днях: ' + ' ' + ageDays +
-        '\nчерез 5 лет вам будет: ' + ' ' + ageFiveYears +
-        '\nваш пол: ' + ' ' + currentGender +
-        '\nвы на пенсии: ' + ' ' + retire);
+alert(
+    "ваше ФИО: " + ' ' + surName + ' ' + name + ' ' + secondName +
+    '\nваш возраст в годах: ' + ' ' + age +
+    '\nваш возраст в днях: ' + ' ' + ageDays +
+    '\nчерез 5 лет вам будет: ' + ' ' + ageFiveYears +
+    '\nваш пол: ' + ' ' + currentGender +
+    '\nвы на пенсии: ' + ' ' + retire);

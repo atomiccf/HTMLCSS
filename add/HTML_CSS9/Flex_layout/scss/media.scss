@@ -6,25 +6,61 @@
   }
 
   nav {
+
     button {
       margin-right: 166px;
 
     }
 
+    .logo {
+      position: relative;
+      margin-left: 0;
 
+      img {
+
+        margin-top: 24px;
+
+      }
+
+      span {
+        position: absolute;
+        bottom: 34px;
+        margin-left: 20px;
+        color: $deepblue;
+        white-space: nowrap;
+        font-family: $openSans;
+        font-style: normal;
+        font-size: 22.5455px;
+        line-height: 31px;
+
+      }
+
+    }
   }
 
   .main_article {
 
+
+.flexwrap_1 {
+  margin-left: 0;
+  margin-right: 0;
+}
   .article_img1 {
   margin-right: 0;
   height: 592px;
 
   }
 
+    .logo_wrapper {
+
+      margin-left: 0;
+
+        }
 
 
-  }
+
+    }
+
 
   .blog {
     flex-wrap: wrap;
@@ -84,7 +120,7 @@
 
 }
 
-  @media all and (max-width: 1199px) {
+@media all and (max-width: 1199px) {
     .container {
       width: 992px;
       margin: 0 auto;
