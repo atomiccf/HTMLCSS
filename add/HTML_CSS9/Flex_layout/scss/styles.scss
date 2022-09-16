@@ -231,6 +231,9 @@ nav {
   }
 .article_img2 {
   margin-right: 68px;
+  img{
+    width: 638px;
+  }
 }
   .flexwrap_2 {
     display: flex;
@@ -288,10 +291,10 @@ nav {
     .blog{
 
       margin-top: 170px;
-
+      width: 100vw;
       display: flex;
-      justify-content: space-between;
-      flex-grow: 1;
+      justify-content: center;
+
 
       h4 {
 
@@ -323,7 +326,7 @@ nav {
 
       .item {
 
-
+        margin-right: 30px;
         width: 362px;
         padding-left: 0;
         padding-right: 0;
@@ -331,7 +334,9 @@ nav {
         border-radius: 10px;
         text-align: center;
         overflow: hidden;
-
+        &:last-child{
+    margin-right: 0;
+  }
 
         }
 
@@ -460,6 +465,9 @@ display: flex;
   flex-flow: row;
   justify-content: center;
   margin-top: 214px;
+
+
+
 h2 {
   width: 548px;
   margin-top: 44px;

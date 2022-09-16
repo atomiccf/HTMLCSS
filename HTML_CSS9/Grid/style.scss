@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.grid-container {
+  display: grid;
+  grid-template: minmax(50px,auto) 1fr minmax(50px,auto)/ 1fr;
+  align-content: center;
+}
+
+.main_section {
+  display: grid;
+  grid-template-columns: 170px 1fr;
+  column-gap: 10px;
+
+
+}
+
+.header {
+
+  background-color: #add8e6;
+  color: #0a0dfd;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 1px;
+  font-family: Arial, serif;
+
+}
+
+.menu {
+
+  background-color: #f0e78d;
+
+}
+
+.content {
+
+  background: url("ball.png") repeat-y right top;
+  h2{
+    text-align: center;
+  }
+}
+
+.footer {
+
+  background-color: #add8e6;
+  color: #0a0dfd;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 1px;
+  margin: 0;
+  font-family: Arial, serif;
+
+}
+
+
+
+@media all and (max-width: 605px) {
+
+  .main_section {
+    grid-template-columns:1fr;
+    grid-template-areas:
+            "content"
+             "menu"   ;
+
+  .menu {
+  grid-area: menu;
+
+
+  }
+    .content{
+      grid-area: content;
+      img{
+        width: 100%;
+      }
+    }
+  }
+
+}
+
